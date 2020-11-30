@@ -1,0 +1,1559 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "https://w3id.org/bot", "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://purl.org/vocommons/voaf", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "https://w3id.org/con-tax/properties/bhp", "https://w3id.org/con-tax/properties/cp", "https://w3id.org/con-tax", "http://www.w3.org/2006/vcard/ns", "http://www.w3.org/2004/02/skos/core" ],
+    "title" : {
+      "en" : "Built Heritage Properties (BHP) taxonomy"
+    },
+    "iri" : "https://w3id.org/con-tax/properties/bhp",
+    "version" : "0.0.1",
+    "author" : [ "_:genid2147483648" ],
+    "description" : {
+      "en" : "This ontology contains a preliminary list of properties that might prove useful to describe heritage buildings. The properties are inspired by (1) the databases of Monumentenwacht Vlaanderen (MAKSBO and IMACS), (2) the online built heritage inventory of Onroerend Erfgoed Vlaanderen and (3) the results of interviews with a large variety of Flemish built heritage stakeholders."
+    },
+    "comments" : {
+      "en" : "- Version 0.0.1: initial version"
+    },
+    "other" : {
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "https://creativecommons.org/licenses/by/4.0/",
+        "type" : "iri"
+      } ],
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "_:genid2147483648",
+        "type" : "label"
+      } ],
+      "preferredNamespacePrefix" : [ {
+        "identifier" : "preferredNamespacePrefix",
+        "language" : "undefined",
+        "value" : "bhp",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "0.0.1",
+        "type" : "label"
+      } ],
+      "preferredNamespaceUri" : [ {
+        "identifier" : "preferredNamespaceUri",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/properties/bhp#",
+        "type" : "label"
+      } ],
+      "issued" : [ {
+        "identifier" : "issued",
+        "language" : "undefined",
+        "value" : "2020-11-30",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "en",
+        "value" : "Built Heritage Properties (BHP) taxonomy",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "4",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "5",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "7",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "13",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "27",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "https://w3id.org/bot#Interface",
+    "baseIri" : "https://w3id.org/bot",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Interface"
+    },
+    "attributes" : [ "external" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://www.w3.org/2006/vcard/ns#Organization",
+    "baseIri" : "http://www.w3.org/2006/vcard/ns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Organization"
+    },
+    "attributes" : [ "external" ],
+    "id" : "1"
+  }, {
+    "iri" : "http://www.w3.org/2004/02/skos/core#Concept",
+    "baseIri" : "http://www.w3.org/2004/02/skos/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Concept"
+    },
+    "individuals" : [ {
+      "iri" : "https://id.erfgoed.net/thesauri/waardetypes/37",
+      "baseIri" : "https://id.erfgoed.net/thesauri/waardetypes",
+      "labels" : {
+        "IRI-based" : "37"
+      }
+    }, {
+      "iri" : "https://id.erfgoed.net/thesauri/waardetypes/30",
+      "baseIri" : "https://id.erfgoed.net/thesauri/waardetypes",
+      "labels" : {
+        "IRI-based" : "30"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "2"
+  }, {
+    "iri" : "https://w3id.org/con-tax#Architect",
+    "baseIri" : "https://w3id.org/con-tax",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Architect"
+    },
+    "attributes" : [ "external" ],
+    "id" : "10"
+  }, {
+    "iri" : "https://w3id.org/con-tax#ConstructionComponent",
+    "baseIri" : "https://w3id.org/con-tax",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ConstructionComponent"
+    },
+    "attributes" : [ "external" ],
+    "id" : "16"
+  }, {
+    "iri" : "https://w3id.org/bot#Site",
+    "baseIri" : "https://w3id.org/bot",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Site"
+    },
+    "attributes" : [ "external" ],
+    "id" : "17"
+  }, {
+    "iri" : "http://www.w3.org/2006/vcard/ns#Individual",
+    "baseIri" : "http://www.w3.org/2006/vcard/ns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Individual"
+    },
+    "attributes" : [ "external" ],
+    "id" : "30"
+  }, {
+    "iri" : "http://purl.org/vocommons/voaf#Vocabulary",
+    "baseIri" : "http://purl.org/vocommons/voaf",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Vocabulary"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/con-tax/properties/bhp",
+      "baseIri" : "https://w3id.org/con-tax/properties",
+      "labels" : {
+        "IRI-based" : "bhp"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "32"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#positiveInteger",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "29",
+    "label" : {
+      "IRI-based" : "positiveInteger"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "4",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "5",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "7",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "13",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "36",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://w3id.org/con-tax#Material",
+    "baseIri" : "https://w3id.org/con-tax",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Material"
+    },
+    "attributes" : [ "external" ],
+    "id" : "37"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#positiveInteger",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "19",
+    "label" : {
+      "IRI-based" : "positiveInteger"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#positiveInteger",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "27",
+    "label" : {
+      "IRI-based" : "positiveInteger"
+    }
+  }, {
+    "iri" : "https://w3id.org/bot#Building",
+    "baseIri" : "https://w3id.org/bot",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Building"
+    },
+    "attributes" : [ "external" ],
+    "id" : "41"
+  }, {
+    "iri" : "https://w3id.org/bot#Element",
+    "baseIri" : "https://w3id.org/bot",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Element"
+    },
+    "attributes" : [ "external" ],
+    "id" : "42"
+  }, {
+    "iri" : "https://w3id.org/bot#Zone",
+    "baseIri" : "https://w3id.org/bot",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Zone"
+    },
+    "attributes" : [ "external" ],
+    "id" : "43"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Resource",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "instances" : 2,
+    "label" : {
+      "IRI-based" : "Resource"
+    },
+    "individuals" : [ {
+      "iri" : "https://id.erfgoed.net/thesauri/dateringen/1227",
+      "baseIri" : "https://id.erfgoed.net/thesauri/dateringen",
+      "labels" : {
+        "IRI-based" : "1227"
+      }
+    }, {
+      "iri" : "http://w3id.org/con-tax/zones/et-buildings#319",
+      "baseIri" : "http://w3id.org/con-tax/zones/et-buildings",
+      "labels" : {
+        "IRI-based" : "319"
+      }
+    }, {
+      "iri" : "https://inventaris.onroerenderfgoed.be/",
+      "baseIri" : "https:/",
+      "labels" : { }
+    }, {
+      "iri" : "http://w3id.org/con-tax/zones/et-buildings#63",
+      "baseIri" : "http://w3id.org/con-tax/zones/et-buildings",
+      "labels" : {
+        "IRI-based" : "63"
+      }
+    }, {
+      "iri" : "http://pi.pauwel.be/voc/buildingelement#Slab-ROOF",
+      "baseIri" : "http://pi.pauwel.be/voc/buildingelement",
+      "labels" : {
+        "IRI-based" : "Slab-ROOF"
+      }
+    }, {
+      "iri" : "https://id.erfgoed.net/thesauri/waardetypes",
+      "baseIri" : "https://id.erfgoed.net/thesauri",
+      "labels" : {
+        "IRI-based" : "waardetypes"
+      }
+    }, {
+      "iri" : "https://w3id.org/con-tax/components/aat-arch#300002098",
+      "baseIri" : "https://w3id.org/con-tax/components/aat-arch",
+      "labels" : {
+        "IRI-based" : "300002098"
+      }
+    }, {
+      "iri" : "https://www.monumentenwacht.be/",
+      "baseIri" : "https:/",
+      "labels" : { }
+    }, {
+      "iri" : "http://w3id.org/con-tax/zones/et-buildings#321",
+      "baseIri" : "http://w3id.org/con-tax/zones/et-buildings",
+      "labels" : {
+        "IRI-based" : "321"
+      }
+    }, {
+      "iri" : "https://id.erfgoed.net/thesauri/aanduidingstypes",
+      "baseIri" : "https://id.erfgoed.net/thesauri",
+      "labels" : {
+        "IRI-based" : "aanduidingstypes"
+      }
+    }, {
+      "iri" : "https://id.erfgoed.net/thesauri/dateringen/1195",
+      "baseIri" : "https://id.erfgoed.net/thesauri/dateringen",
+      "labels" : {
+        "IRI-based" : "1195"
+      }
+    }, {
+      "iri" : "https://id.erfgoed.net/thesauri/dateringen/1196",
+      "baseIri" : "https://id.erfgoed.net/thesauri/dateringen",
+      "labels" : {
+        "IRI-based" : "1196"
+      }
+    }, {
+      "iri" : "https://w3id.org/con-tax/zones/aat-buildings#300004790",
+      "baseIri" : "https://w3id.org/con-tax/zones/aat-buildings",
+      "labels" : {
+        "IRI-based" : "300004790"
+      }
+    }, {
+      "iri" : "http://w3id.org/con-tax/zones/et-buildings#359",
+      "baseIri" : "http://w3id.org/con-tax/zones/et-buildings",
+      "labels" : {
+        "IRI-based" : "359"
+      }
+    }, {
+      "iri" : "http://w3id.org/con-tax/zones/et-buildings293",
+      "baseIri" : "http://w3id.org/con-tax/zones",
+      "labels" : {
+        "IRI-based" : "et-buildings293"
+      }
+    }, {
+      "iri" : "http://w3id.org/con-tax/zones/et-buildings#520",
+      "baseIri" : "http://w3id.org/con-tax/zones/et-buildings",
+      "labels" : {
+        "IRI-based" : "520"
+      }
+    }, {
+      "iri" : "https://id.erfgoed.net/thesauri/dateringen/1236",
+      "baseIri" : "https://id.erfgoed.net/thesauri/dateringen",
+      "labels" : {
+        "IRI-based" : "1236"
+      }
+    }, {
+      "iri" : "https://id.erfgoed.net/thesauri/dateringen/1237",
+      "baseIri" : "https://id.erfgoed.net/thesauri/dateringen",
+      "labels" : {
+        "IRI-based" : "1237"
+      }
+    }, {
+      "iri" : "http://w3id.org/con-tax/zones/et-buildings#466",
+      "baseIri" : "http://w3id.org/con-tax/zones/et-buildings",
+      "labels" : {
+        "IRI-based" : "466"
+      }
+    }, {
+      "iri" : "http://w3id.org/con-tax/zones/et-buildings#323",
+      "baseIri" : "http://w3id.org/con-tax/zones/et-buildings",
+      "labels" : {
+        "IRI-based" : "323"
+      }
+    }, {
+      "iri" : "https://id.erfgoed.net/thesauri/dateringen/1223",
+      "baseIri" : "https://id.erfgoed.net/thesauri/dateringen",
+      "labels" : {
+        "IRI-based" : "1223"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "34"
+  } ],
+  "property" : [ {
+    "id" : "3",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "6",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "8",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "11",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "12",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "14",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "18",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "9",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "26",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "28",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "31",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "20",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "33",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "35",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "15",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "21",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "38",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "39",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "25",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "22",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "23",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "40",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "44",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "24",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "https://w3id.org/con-tax#property_DP",
+    "baseIri" : "https://w3id.org/con-tax",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "property_DP"
+    },
+    "domain" : "4",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "3"
+  }, {
+    "iri" : "https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooksEN517",
+    "baseIri" : "https://w3id.org/con-tax/properties/bhp",
+    "range" : "7",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/properties/bhp",
+        "type" : "iri"
+      } ],
+      "domainOrSubjectIncludes" : [ {
+        "identifier" : "domainOrSubjectIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/components/aat-arch#300002098",
+        "type" : "iri"
+      }, {
+        "identifier" : "domainOrSubjectIncludes",
+        "language" : "undefined",
+        "value" : "http://pi.pauwel.be/voc/buildingelement#Slab-ROOF",
+        "type" : "iri"
+      } ],
+      "rangeOrObjectIncludes" : [ {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "iri"
+      } ],
+      "source" : [ {
+        "identifier" : "source",
+        "language" : "undefined",
+        "value" : "https://www.monumentenwacht.be/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "percentageRoofSafetyHooksEN517",
+      "en" : "% of roof safety hooks EN 517"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "Quantitative property to indicate the percentage of the roof that is provided with safety hooks for ladders and/or fall protection that comply with the European standard EN 517. Property definition inspired by the Monumentenwacht Vlaanderen databases (MAKSBO and IMACS)."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "6"
+  }, {
+    "iri" : "https://w3id.org/con-tax/properties/bhp#describedByHistoricalSource",
+    "baseIri" : "https://w3id.org/con-tax/properties/bhp",
+    "range" : "4",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/properties/bhp",
+        "type" : "iri"
+      } ],
+      "domainOrSubjectIncludes" : [ {
+        "identifier" : "domainOrSubjectIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax#ConstructionComponent",
+        "type" : "iri"
+      }, {
+        "identifier" : "domainOrSubjectIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/bot#Zone",
+        "type" : "iri"
+      }, {
+        "identifier" : "domainOrSubjectIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/bot#Element",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "describedByHistoricalSource",
+      "en" : "described by historical source"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "4",
+    "comment" : {
+      "en" : "A property to connect a spatial building zone or construction component to a historical source that describes it. Property definition inspired by interviews with built heritage stakeholders."
+    },
+    "attributes" : [ "object" ],
+    "id" : "8"
+  }, {
+    "iri" : "https://w3id.org/con-tax/properties/bhp#locationOfHistoricalEvent",
+    "baseIri" : "https://w3id.org/con-tax/properties/bhp",
+    "range" : "4",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/properties/bhp",
+        "type" : "iri"
+      } ],
+      "domainOrSubjectIncludes" : [ {
+        "identifier" : "domainOrSubjectIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/bot#Zone",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "locationOfHistoricalEvent",
+      "en" : "location of historical event"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "4",
+    "comment" : {
+      "en" : "A property to connect a spatial building zone to a historical event that took place in the building zone. Property definition inspired by interviews with built heritage stakeholders."
+    },
+    "attributes" : [ "object" ],
+    "id" : "11"
+  }, {
+    "iri" : "https://w3id.org/con-tax/properties/cp#assessmentScore",
+    "baseIri" : "https://w3id.org/con-tax/properties/cp",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "assessmentScore"
+    },
+    "domain" : "4",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "12"
+  }, {
+    "iri" : "https://w3id.org/con-tax/properties/bhp#buildingFunction_past",
+    "baseIri" : "https://w3id.org/con-tax/properties/bhp",
+    "range" : "4",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/properties/bhp",
+        "type" : "iri"
+      } ],
+      "rangeOrObjectIncludes" : [ {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "http://w3id.org/con-tax/zones/et-buildings#1226",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "http://w3id.org/con-tax/zones/et-buildings#1271",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "http://w3id.org/con-tax/zones/et-buildings#359",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "http://w3id.org/con-tax/zones/et-buildings#520",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "http://w3id.org/con-tax/zones/et-buildings#319",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "http://w3id.org/con-tax/zones/et-buildings#323",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "http://w3id.org/con-tax/zones/et-buildings#321",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "http://w3id.org/con-tax/zones/et-buildings#63",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/zones/aat-buildings#300004790",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "http://w3id.org/con-tax/zones/et-buildings#466",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "http://w3id.org/con-tax/zones/et-buildings#293",
+        "type" : "iri"
+      } ],
+      "domainOrSubjectIncludes" : [ {
+        "identifier" : "domainOrSubjectIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/bot#Building",
+        "type" : "iri"
+      } ],
+      "source" : [ {
+        "identifier" : "source",
+        "language" : "undefined",
+        "value" : "https://www.monumentenwacht.be/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "buildingFunction_past",
+      "en" : "past building function"
+    },
+    "superproperty" : [ "15" ],
+    "domain" : "4",
+    "comment" : {
+      "en" : "Property to assign a past function (different from the original function) to a certain built heritage building. For the Flemish context, predefined property values can be used from ET-BUILDINGS taxonomy, based on the Onroerend Erfgoed thesaurus \"ERFGOEDTYPES\", and the AAT-BUILDINGS taxonomy based on the Getty AAT. Property definition inspired by the Monumentenwacht Vlaanderen databases (MAKSBO and IMACS)."
+    },
+    "attributes" : [ "object" ],
+    "id" : "14"
+  }, {
+    "iri" : "https://w3id.org/con-tax/properties/bhp#mw-assessmentScore-BPC",
+    "baseIri" : "https://w3id.org/con-tax/properties/bhp",
+    "range" : "19",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/properties/bhp",
+        "type" : "iri"
+      } ],
+      "source" : [ {
+        "identifier" : "source",
+        "language" : "undefined",
+        "value" : "https://www.monumentenwacht.be/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "mw-assessmentScore-BPC",
+      "en" : "building physical condition score (according Monumentenwacht)"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "Property to indicate the building physical condition (BPC) of an assessment connected to an assessed object (cp:hasAssessment) according to the methodology of Monumentenwacht Vlaanderen. The value of the property should be a positive integer between 1 and 6. The scale should be interpretted as follows:\n1 = excellent\n2 = good\n3 = fair\n4 = average\n5 = bad\n6 = very bad"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "18"
+  }, {
+    "iri" : "https://w3id.org/con-tax#property_OP",
+    "baseIri" : "https://w3id.org/con-tax",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "property_OP"
+    },
+    "domain" : "4",
+    "subproperty" : [ "8", "20", "11", "15", "21", "22", "23", "24", "25" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "9"
+  }, {
+    "iri" : "https://w3id.org/con-tax/properties/bhp#mw-assessmentScore-RCD",
+    "baseIri" : "https://w3id.org/con-tax/properties/bhp",
+    "range" : "27",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/properties/bhp",
+        "type" : "iri"
+      } ],
+      "source" : [ {
+        "identifier" : "source",
+        "language" : "undefined",
+        "value" : "https://www.monumentenwacht.be/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "mw-assessmentScore-RCD",
+      "en" : "risk for consequential damage score (according Monumentenwacht)"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "Property to indicate the risk for consequential damage (in case the owner does not react properly to the detected damages) of an assessment connected to an assessed object (cp:hasAssessment) according to the methodology of Monumentenwacht Vlaanderen. The value of the property should be a positive integer between 1 and 6. The scale should be interpretted as follows:\n1 = no risk\n2 = low risk\n3 = fair risk\n4 = considerable risk\n5 = high risk\n6 = acute risk"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "26"
+  }, {
+    "iri" : "https://w3id.org/con-tax/properties/bhp#mw-assessmentScore-maintenance",
+    "baseIri" : "https://w3id.org/con-tax/properties/bhp",
+    "range" : "29",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/properties/bhp",
+        "type" : "iri"
+      } ],
+      "source" : [ {
+        "identifier" : "source",
+        "language" : "undefined",
+        "value" : "https://www.monumentenwacht.be/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "mw-assessmentScore-maintenance",
+      "en" : "maintenance score (according Monumentenwacht)"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "Property to indicate the attitude and quality of the current maintenance policies of an assessment connected to an assessed object (cp:hasAssessment) according to the methodology of Monumentenwacht Vlaanderen. The value of the property should be a positive integer between 1 and 6. The scale should be interpretted as follows:\n1 = excellent\n2 = good\n3 = fair\n4 = average\n5 = bad\n6 = very bad"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "28"
+  }, {
+    "iri" : "https://w3id.org/con-tax/properties/bhp#buildingFunction_current",
+    "baseIri" : "https://w3id.org/con-tax/properties/bhp",
+    "range" : "4",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/properties/bhp",
+        "type" : "iri"
+      } ],
+      "rangeOrObjectIncludes" : [ {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "http://w3id.org/con-tax/zones/et-buildings#520",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "http://w3id.org/con-tax/zones/et-buildings#359",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "http://w3id.org/con-tax/zones/et-buildings#466",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "http://w3id.org/con-tax/zones/et-buildings#63",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "http://w3id.org/con-tax/zones/et-buildings#293",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "http://w3id.org/con-tax/zones/et-buildings#319",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/zones/aat-buildings#300004790",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "http://w3id.org/con-tax/zones/et-buildings#1226",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "http://w3id.org/con-tax/zones/et-buildings#321",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "http://w3id.org/con-tax/zones/et-buildings#323",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "http://w3id.org/con-tax/zones/et-buildings#1271",
+        "type" : "iri"
+      } ],
+      "domainOrSubjectIncludes" : [ {
+        "identifier" : "domainOrSubjectIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/bot#Building",
+        "type" : "iri"
+      } ],
+      "source" : [ {
+        "identifier" : "source",
+        "language" : "undefined",
+        "value" : "https://www.monumentenwacht.be/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "buildingFunction_current",
+      "en" : "current building function"
+    },
+    "superproperty" : [ "15" ],
+    "domain" : "4",
+    "comment" : {
+      "en" : "Property to assign a current function to a certain built heritage building. An alternative way of modeling the current function of a building is by attaching the appropriate class (specialization of bot:Building) to the building node via an rdf:type relation. For the Flemish context, predefined property values can be used from ET-BUILDINGS taxonomy, based on the Onroerend Erfgoed thesaurus \"ERFGOEDTYPES\", and the AAT-BUILDINGS taxonomy based on the Getty AAT. Property definition inspired by the Monumentenwacht Vlaanderen databases (MAKSBO and IMACS)."
+    },
+    "attributes" : [ "object" ],
+    "id" : "31"
+  }, {
+    "iri" : "https://w3id.org/con-tax/properties/bhp#originsFromPeriod",
+    "baseIri" : "https://w3id.org/con-tax/properties/bhp",
+    "range" : "4",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/properties/bhp",
+        "type" : "iri"
+      } ],
+      "domainOrSubjectIncludes" : [ {
+        "identifier" : "domainOrSubjectIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/bot#Element",
+        "type" : "iri"
+      }, {
+        "identifier" : "domainOrSubjectIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax#ConstructionComponent",
+        "type" : "iri"
+      }, {
+        "identifier" : "domainOrSubjectIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/bot#Zone",
+        "type" : "iri"
+      } ],
+      "rangeOrObjectIncludes" : [ {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "https://id.erfgoed.net/thesauri/dateringen/1236",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "https://id.erfgoed.net/thesauri/dateringen/1227",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "https://id.erfgoed.net/thesauri/dateringen/1196",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "https://id.erfgoed.net/thesauri/dateringen/1237",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "https://id.erfgoed.net/thesauri/dateringen/1223",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "https://id.erfgoed.net/thesauri/dateringen/1195",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "originsFromPeriod",
+      "en" : "origins from period"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "4",
+    "comment" : {
+      "en" : "Property to indicate the historical time period a spatial building zone or a construction component originates from. Property definition inspired by interviews with built heritage stakeholders."
+    },
+    "attributes" : [ "object" ],
+    "id" : "20"
+  }, {
+    "domain" : "34",
+    "range" : "30",
+    "id" : "33",
+    "label" : {
+      "IRI-based" : "3",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "34",
+    "range" : "1",
+    "id" : "35",
+    "label" : {
+      "IRI-based" : "4",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "https://w3id.org/con-tax/properties/bhp#buildingFunction",
+    "baseIri" : "https://w3id.org/con-tax/properties/bhp",
+    "range" : "4",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/properties/bhp",
+        "type" : "iri"
+      } ],
+      "rangeOrObjectIncludes" : [ {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "http://w3id.org/con-tax/zones/et-buildings#359",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "http://w3id.org/con-tax/zones/et-buildings#319",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "http://w3id.org/con-tax/zones/et-buildings#321",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "http://w3id.org/con-tax/zones/et-buildings#466",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "http://w3id.org/con-tax/zones/et-buildings#520",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "http://w3id.org/con-tax/zones/et-buildings#63",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "http://w3id.org/con-tax/zones/et-buildings#1271",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "http://w3id.org/con-tax/zones/et-buildings#323",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "http://w3id.org/con-tax/zones/et-buildings#1226",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/zones/aat-buildings#300004790",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "http://w3id.org/con-tax/zones/et-buildings#293",
+        "type" : "iri"
+      } ],
+      "domainOrSubjectIncludes" : [ {
+        "identifier" : "domainOrSubjectIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/bot#Building",
+        "type" : "iri"
+      } ],
+      "source" : [ {
+        "identifier" : "source",
+        "language" : "undefined",
+        "value" : "https://www.monumentenwacht.be/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "buildingFunction",
+      "en" : "building function"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "4",
+    "subproperty" : [ "31", "38", "14" ],
+    "comment" : {
+      "en" : "Property to assign a function to a certain built heritage building. For the Flemish context, predefined property values can be used from ET-BUILDINGS taxonomy, based on the Onroerend Erfgoed thesaurus \"ERFGOEDTYPES\", and the AAT-BUILDINGS taxonomy based on the Getty AAT. Property definition inspired by the Monumentenwacht Vlaanderen databases (MAKSBO and IMACS)."
+    },
+    "attributes" : [ "object" ],
+    "id" : "15"
+  }, {
+    "iri" : "https://w3id.org/con-tax/properties/bhp#hasArchitecturalStyle",
+    "baseIri" : "https://w3id.org/con-tax/properties/bhp",
+    "range" : "4",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/properties/bhp",
+        "type" : "iri"
+      } ],
+      "domainOrSubjectIncludes" : [ {
+        "identifier" : "domainOrSubjectIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/bot#Zone",
+        "type" : "iri"
+      }, {
+        "identifier" : "domainOrSubjectIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/bot#Element",
+        "type" : "iri"
+      }, {
+        "identifier" : "domainOrSubjectIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax#ConstructionComponent",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasArchitecturalStyle",
+      "en" : "has architectural style"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "4",
+    "comment" : {
+      "en" : "Property to indicate the architectural style of as spatial building zone or a construction component. Property definition inspired by interviews with built heritage stakeholders."
+    },
+    "attributes" : [ "object" ],
+    "id" : "21"
+  }, {
+    "iri" : "https://w3id.org/con-tax/properties/bhp#buildingFunction_original",
+    "baseIri" : "https://w3id.org/con-tax/properties/bhp",
+    "range" : "4",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/properties/bhp",
+        "type" : "iri"
+      } ],
+      "rangeOrObjectIncludes" : [ {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "http://w3id.org/con-tax/zones/et-buildings#359",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "http://w3id.org/con-tax/zones/et-buildings#293",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/zones/aat-buildings#300004790",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "http://w3id.org/con-tax/zones/et-buildings#323",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "http://w3id.org/con-tax/zones/et-buildings#319",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "http://w3id.org/con-tax/zones/et-buildings#1226",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "http://w3id.org/con-tax/zones/et-buildings#1271",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "http://w3id.org/con-tax/zones/et-buildings#321",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "http://w3id.org/con-tax/zones/et-buildings#63",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "http://w3id.org/con-tax/zones/et-buildings#466",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "http://w3id.org/con-tax/zones/et-buildings#520",
+        "type" : "iri"
+      } ],
+      "domainOrSubjectIncludes" : [ {
+        "identifier" : "domainOrSubjectIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/bot#Building",
+        "type" : "iri"
+      } ],
+      "source" : [ {
+        "identifier" : "source",
+        "language" : "undefined",
+        "value" : "https://www.monumentenwacht.be/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "buildingFunction_original",
+      "en" : "original building function"
+    },
+    "superproperty" : [ "15" ],
+    "domain" : "4",
+    "comment" : {
+      "en" : "Property to assign an original function to a certain built heritage building. For the Flemish context, predefined property values can be used from ET-BUILDINGS taxonomy, based on the Onroerend Erfgoed thesaurus \"ERFGOEDTYPES\", and the AAT-BUILDINGS taxonomy based on the Getty AAT. Property definition inspired by the Monumentenwacht Vlaanderen databases (MAKSBO and IMACS)."
+    },
+    "attributes" : [ "object" ],
+    "id" : "38"
+  }, {
+    "iri" : "https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooks",
+    "baseIri" : "https://w3id.org/con-tax/properties/bhp",
+    "range" : "36",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/properties/bhp",
+        "type" : "iri"
+      } ],
+      "domainOrSubjectIncludes" : [ {
+        "identifier" : "domainOrSubjectIncludes",
+        "language" : "undefined",
+        "value" : "http://pi.pauwel.be/voc/buildingelement#Slab-ROOF",
+        "type" : "iri"
+      }, {
+        "identifier" : "domainOrSubjectIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/components/aat-arch#300002098",
+        "type" : "iri"
+      } ],
+      "rangeOrObjectIncludes" : [ {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "iri"
+      } ],
+      "source" : [ {
+        "identifier" : "source",
+        "language" : "undefined",
+        "value" : "https://www.monumentenwacht.be/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "percentageRoofSafetyHooks",
+      "en" : "% of roof safety hooks"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "Quantitative property to indicate the percentage of the roof that is provided with safety hooks for ladders and/or fall protection. Property definition inspired by the Monumentenwacht Vlaanderen databases (MAKSBO and IMACS)."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "39"
+  }, {
+    "iri" : "https://w3id.org/con-tax/properties/bhp#heritageValue",
+    "baseIri" : "https://w3id.org/con-tax/properties/bhp",
+    "range" : "4",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/properties/bhp",
+        "type" : "iri"
+      } ],
+      "domainOrSubjectIncludes" : [ {
+        "identifier" : "domainOrSubjectIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax#ConstructionComponent",
+        "type" : "iri"
+      }, {
+        "identifier" : "domainOrSubjectIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/bot#Zone",
+        "type" : "iri"
+      }, {
+        "identifier" : "domainOrSubjectIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/bot#Element",
+        "type" : "iri"
+      } ],
+      "rangeOrObjectIncludes" : [ {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "https://id.erfgoed.net/thesauri/waardetypes/37",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "https://id.erfgoed.net/thesauri/waardetypes/30",
+        "type" : "iri"
+      } ],
+      "source" : [ {
+        "identifier" : "source",
+        "language" : "undefined",
+        "value" : "https://inventaris.onroerenderfgoed.be/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "heritageValue",
+      "en" : "heritage value"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "4",
+    "comment" : {
+      "en" : "Property to assign a heritage value to a certain built heritage object (spatial building zone or individual construction component). For the Flemish context, predefined property values can be used from the Onroerend Erfgoed thesaurus \"WAARDETYPES\". Property definition inspired by the Onroerend Erfgoed Vlaanderen built heritage inventory."
+    },
+    "attributes" : [ "object" ],
+    "id" : "25"
+  }, {
+    "iri" : "https://w3id.org/con-tax/properties/bhp#hasErfgoedBeheersplan",
+    "baseIri" : "https://w3id.org/con-tax/properties/bhp",
+    "range" : "4",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/properties/bhp",
+        "type" : "iri"
+      } ],
+      "domainOrSubjectIncludes" : [ {
+        "identifier" : "domainOrSubjectIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/bot#Building",
+        "type" : "iri"
+      }, {
+        "identifier" : "domainOrSubjectIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/bot#Site",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasErfgoedBeheersplan",
+      "en" : "has erfgoed beheersplan"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "4",
+    "comment" : {
+      "en" : "Property to connect a built heritage buildig or site to an \"erfgoed beheersplan\", as defined by Onroerend Erfgoed Vlaanderen. Property definition inspired by interviews with built heritage stakeholders."
+    },
+    "attributes" : [ "object" ],
+    "id" : "22"
+  }, {
+    "iri" : "https://w3id.org/con-tax/properties/bhp#heritageProtectionType",
+    "baseIri" : "https://w3id.org/con-tax/properties/bhp",
+    "range" : "4",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/properties/bhp",
+        "type" : "iri"
+      } ],
+      "domainOrSubjectIncludes" : [ {
+        "identifier" : "domainOrSubjectIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/bot#Building",
+        "type" : "iri"
+      }, {
+        "identifier" : "domainOrSubjectIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/bot#Site",
+        "type" : "iri"
+      } ],
+      "rangeOrObjectIncludes" : [ {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "https://id.erfgoed.net/thesauri/aanduidingstypes/1",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeOrObjectIncludes",
+        "language" : "undefined",
+        "value" : "https://id.erfgoed.net/thesauri/aanduidingstypes/9",
+        "type" : "iri"
+      } ],
+      "source" : [ {
+        "identifier" : "source",
+        "language" : "undefined",
+        "value" : "https://inventaris.onroerenderfgoed.be/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "heritageProtectionType",
+      "en" : "heritage protection type"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "4",
+    "comment" : {
+      "en" : "Property to assign a heritage protection type to a certain built heritage site or building. For the Flemish context, two predefined property values can be used from the Onroerend Erfgoed thesaurus \"AANDUIDINGSTYPES\". Property definition inspired by the Onroerend Erfgoed Vlaanderen built heritage inventory."
+    },
+    "attributes" : [ "object" ],
+    "id" : "23"
+  }, {
+    "iri" : "https://w3id.org/con-tax/properties/bhp#restorationArchitect",
+    "baseIri" : "https://w3id.org/con-tax/properties/bhp",
+    "range" : "4",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/properties/bhp",
+        "type" : "iri"
+      } ],
+      "domainOrSubjectIncludes" : [ {
+        "identifier" : "domainOrSubjectIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/bot#Zone",
+        "type" : "iri"
+      }, {
+        "identifier" : "domainOrSubjectIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax#ConstructionComponent",
+        "type" : "iri"
+      }, {
+        "identifier" : "domainOrSubjectIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/bot#Element",
+        "type" : "iri"
+      } ],
+      "source" : [ {
+        "identifier" : "source",
+        "language" : "undefined",
+        "value" : "https://inventaris.onroerenderfgoed.be/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "restorationArchitect",
+      "en" : "restoration architect"
+    },
+    "superproperty" : [ "24" ],
+    "domain" : "4",
+    "comment" : {
+      "en" : "Property to relate a (recent or historic) restoration architect to a site, building or individual construction component. Famous architects with assigned URIs from the Getty ULAN vocabulary can be used as values for this property. Property definition inspired by the Onroerend Erfgoed Vlaanderen built heritage inventory."
+    },
+    "attributes" : [ "object" ],
+    "id" : "40"
+  }, {
+    "iri" : "https://w3id.org/con-tax/properties/bhp#originalArchitect",
+    "baseIri" : "https://w3id.org/con-tax/properties/bhp",
+    "range" : "4",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/properties/bhp",
+        "type" : "iri"
+      } ],
+      "domainOrSubjectIncludes" : [ {
+        "identifier" : "domainOrSubjectIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/bot#Zone",
+        "type" : "iri"
+      }, {
+        "identifier" : "domainOrSubjectIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/bot#Element",
+        "type" : "iri"
+      }, {
+        "identifier" : "domainOrSubjectIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax#ConstructionComponent",
+        "type" : "iri"
+      } ],
+      "source" : [ {
+        "identifier" : "source",
+        "language" : "undefined",
+        "value" : "https://inventaris.onroerenderfgoed.be/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "originalArchitect",
+      "en" : "original architect"
+    },
+    "superproperty" : [ "24" ],
+    "domain" : "4",
+    "comment" : {
+      "en" : "Property to relate an original architect to a site, building or individual construction component. Famous architects with assigned URIs from the Getty ULAN vocabulary can be used as values for this property. Property definition inspired by the Onroerend Erfgoed Vlaanderen built heritage inventory."
+    },
+    "attributes" : [ "object" ],
+    "id" : "44"
+  }, {
+    "iri" : "https://w3id.org/con-tax/properties/bhp#relatedArchitect",
+    "baseIri" : "https://w3id.org/con-tax/properties/bhp",
+    "range" : "4",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/properties/bhp",
+        "type" : "iri"
+      } ],
+      "domainOrSubjectIncludes" : [ {
+        "identifier" : "domainOrSubjectIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/bot#Element",
+        "type" : "iri"
+      }, {
+        "identifier" : "domainOrSubjectIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/bot#Zone",
+        "type" : "iri"
+      }, {
+        "identifier" : "domainOrSubjectIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax#ConstructionComponent",
+        "type" : "iri"
+      } ],
+      "source" : [ {
+        "identifier" : "source",
+        "language" : "undefined",
+        "value" : "https://inventaris.onroerenderfgoed.be/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "relatedArchitect",
+      "en" : "related architect"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "4",
+    "subproperty" : [ "40", "44" ],
+    "comment" : {
+      "en" : "Property to relate an architect to a site, building or individual construction component. Famous architects with assigned URIs from the Getty ULAN vocabulary can be used as values for this property. Specializations of this property can be used to assign the original architect (bhp:originalArchitect) or (recent or historic) restoration architects (bhp:restorationArchitect). Property definition inspired by the Onroerend Erfgoed Vlaanderen built heritage inventory."
+    },
+    "attributes" : [ "object" ],
+    "id" : "24"
+  } ]
+}
