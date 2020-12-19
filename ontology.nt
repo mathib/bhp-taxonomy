@@ -14,8 +14,8 @@ _:genid2 <http://www.w3.org/2006/vcard/ns#organization-name> "KU Leuven" .
 _:genid1 <http://www.w3.org/2006/vcard/ns#hasURL> <https://orcid.org/0000-0002-3313-924X> .
 _:genid1 <http://www.w3.org/2006/vcard/ns#hasURL> <https://www.kuleuven.be/wieiswie/nl/person/00110827> .
 _:genid1 <http://www.w3.org/2006/vcard/ns#hasURL> <https://www.researchgate.net/profile/Mathias_Bonduel> .
-<https://w3id.org/con-tax/properties/bhp> <http://purl.org/dc/terms/description> "This ontology contains a preliminary list of properties that might prove useful to describe heritage buildings. The properties are inspired by (1) the databases of Monumentenwacht Vlaanderen (MAKSBO and IMACS), (2) the online built heritage inventory of Onroerend Erfgoed Vlaanderen and (3) the results of interviews with a large variety of Flemish built heritage stakeholders."@en .
-<https://w3id.org/con-tax/properties/bhp> <http://purl.org/dc/terms/issued> "2020-11-30"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://w3id.org/con-tax/properties/bhp> <http://purl.org/dc/terms/description> "This ontology contains a preliminary list of properties that might prove useful to describe heritage buildings. Besides two taxonomies of general built heritage properties, extending resp. contax:property_OP and contax:property_DP, it also contains terminology for the more specific patterns related to construction assessments (extending the more generic Construction Properties (CP) taxonomy). The properties are inspired by (1) the databases of Monumentenwacht Vlaanderen (MAKSBO and IMACS), (2) the online built heritage inventory of Onroerend Erfgoed Vlaanderen and (3) the results of interviews with a large variety of Flemish built heritage stakeholders."@en .
+<https://w3id.org/con-tax/properties/bhp> <http://purl.org/dc/terms/issued> "2020-12-19"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://w3id.org/con-tax/properties/bhp> <http://purl.org/dc/terms/title> "Built Heritage Properties (BHP) taxonomy"@en .
 <https://w3id.org/con-tax/properties/bhp> <http://purl.org/vocab/vann/preferredNamespacePrefix> "bhp" .
 <https://w3id.org/con-tax/properties/bhp> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/con-tax/properties/bhp#" .
@@ -98,17 +98,17 @@ _:genid1 <http://www.w3.org/2006/vcard/ns#hasURL> <https://www.researchgate.net/
 <https://w3id.org/con-tax/properties/bhp#buildingFunction> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/con-tax/properties/bhp> .
 <https://w3id.org/con-tax/properties/bhp#buildingFunction> <http://www.w3.org/2000/01/rdf-schema#label> "building function"@en .
 <https://w3id.org/con-tax/properties/bhp#buildingFunction> <https://w3id.org/con-tax#domainOrSubjectIncludes> <https://w3id.org/bot#Building> .
-<https://w3id.org/con-tax/properties/bhp#buildingFunction> <https://w3id.org/con-tax#rangeOrObjectIncludes> <http://w3id.org/con-tax/zones/et-buildings#1226> .
-<https://w3id.org/con-tax/properties/bhp#buildingFunction> <https://w3id.org/con-tax#rangeOrObjectIncludes> <http://w3id.org/con-tax/zones/et-buildings#1271> .
-<https://w3id.org/con-tax/properties/bhp#buildingFunction> <https://w3id.org/con-tax#rangeOrObjectIncludes> <http://w3id.org/con-tax/zones/et-buildings#293> .
-<https://w3id.org/con-tax/properties/bhp#buildingFunction> <https://w3id.org/con-tax#rangeOrObjectIncludes> <http://w3id.org/con-tax/zones/et-buildings#319> .
-<https://w3id.org/con-tax/properties/bhp#buildingFunction> <https://w3id.org/con-tax#rangeOrObjectIncludes> <http://w3id.org/con-tax/zones/et-buildings#321> .
-<https://w3id.org/con-tax/properties/bhp#buildingFunction> <https://w3id.org/con-tax#rangeOrObjectIncludes> <http://w3id.org/con-tax/zones/et-buildings#323> .
-<https://w3id.org/con-tax/properties/bhp#buildingFunction> <https://w3id.org/con-tax#rangeOrObjectIncludes> <http://w3id.org/con-tax/zones/et-buildings#359> .
-<https://w3id.org/con-tax/properties/bhp#buildingFunction> <https://w3id.org/con-tax#rangeOrObjectIncludes> <http://w3id.org/con-tax/zones/et-buildings#466> .
-<https://w3id.org/con-tax/properties/bhp#buildingFunction> <https://w3id.org/con-tax#rangeOrObjectIncludes> <http://w3id.org/con-tax/zones/et-buildings#520> .
-<https://w3id.org/con-tax/properties/bhp#buildingFunction> <https://w3id.org/con-tax#rangeOrObjectIncludes> <http://w3id.org/con-tax/zones/et-buildings#63> .
 <https://w3id.org/con-tax/properties/bhp#buildingFunction> <https://w3id.org/con-tax#rangeOrObjectIncludes> <https://w3id.org/con-tax/zones/aat-buildings#300004790> .
+<https://w3id.org/con-tax/properties/bhp#buildingFunction> <https://w3id.org/con-tax#rangeOrObjectIncludes> <https://w3id.org/con-tax/zones/et-buildings#1226> .
+<https://w3id.org/con-tax/properties/bhp#buildingFunction> <https://w3id.org/con-tax#rangeOrObjectIncludes> <https://w3id.org/con-tax/zones/et-buildings#1271> .
+<https://w3id.org/con-tax/properties/bhp#buildingFunction> <https://w3id.org/con-tax#rangeOrObjectIncludes> <https://w3id.org/con-tax/zones/et-buildings#293> .
+<https://w3id.org/con-tax/properties/bhp#buildingFunction> <https://w3id.org/con-tax#rangeOrObjectIncludes> <https://w3id.org/con-tax/zones/et-buildings#319> .
+<https://w3id.org/con-tax/properties/bhp#buildingFunction> <https://w3id.org/con-tax#rangeOrObjectIncludes> <https://w3id.org/con-tax/zones/et-buildings#321> .
+<https://w3id.org/con-tax/properties/bhp#buildingFunction> <https://w3id.org/con-tax#rangeOrObjectIncludes> <https://w3id.org/con-tax/zones/et-buildings#323> .
+<https://w3id.org/con-tax/properties/bhp#buildingFunction> <https://w3id.org/con-tax#rangeOrObjectIncludes> <https://w3id.org/con-tax/zones/et-buildings#359> .
+<https://w3id.org/con-tax/properties/bhp#buildingFunction> <https://w3id.org/con-tax#rangeOrObjectIncludes> <https://w3id.org/con-tax/zones/et-buildings#466> .
+<https://w3id.org/con-tax/properties/bhp#buildingFunction> <https://w3id.org/con-tax#rangeOrObjectIncludes> <https://w3id.org/con-tax/zones/et-buildings#520> .
+<https://w3id.org/con-tax/properties/bhp#buildingFunction> <https://w3id.org/con-tax#rangeOrObjectIncludes> <https://w3id.org/con-tax/zones/et-buildings#63> .
 # 
 # https://w3id.org/con-tax/properties/bhp#buildingFunction_current
 <https://w3id.org/con-tax/properties/bhp#buildingFunction_current> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -118,17 +118,17 @@ _:genid1 <http://www.w3.org/2006/vcard/ns#hasURL> <https://www.researchgate.net/
 <https://w3id.org/con-tax/properties/bhp#buildingFunction_current> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/con-tax/properties/bhp> .
 <https://w3id.org/con-tax/properties/bhp#buildingFunction_current> <http://www.w3.org/2000/01/rdf-schema#label> "current building function"@en .
 <https://w3id.org/con-tax/properties/bhp#buildingFunction_current> <https://w3id.org/con-tax#domainOrSubjectIncludes> <https://w3id.org/bot#Building> .
-<https://w3id.org/con-tax/properties/bhp#buildingFunction_current> <https://w3id.org/con-tax#rangeOrObjectIncludes> <http://w3id.org/con-tax/zones/et-buildings#1226> .
-<https://w3id.org/con-tax/properties/bhp#buildingFunction_current> <https://w3id.org/con-tax#rangeOrObjectIncludes> <http://w3id.org/con-tax/zones/et-buildings#1271> .
-<https://w3id.org/con-tax/properties/bhp#buildingFunction_current> <https://w3id.org/con-tax#rangeOrObjectIncludes> <http://w3id.org/con-tax/zones/et-buildings#293> .
-<https://w3id.org/con-tax/properties/bhp#buildingFunction_current> <https://w3id.org/con-tax#rangeOrObjectIncludes> <http://w3id.org/con-tax/zones/et-buildings#319> .
-<https://w3id.org/con-tax/properties/bhp#buildingFunction_current> <https://w3id.org/con-tax#rangeOrObjectIncludes> <http://w3id.org/con-tax/zones/et-buildings#321> .
-<https://w3id.org/con-tax/properties/bhp#buildingFunction_current> <https://w3id.org/con-tax#rangeOrObjectIncludes> <http://w3id.org/con-tax/zones/et-buildings#323> .
-<https://w3id.org/con-tax/properties/bhp#buildingFunction_current> <https://w3id.org/con-tax#rangeOrObjectIncludes> <http://w3id.org/con-tax/zones/et-buildings#359> .
-<https://w3id.org/con-tax/properties/bhp#buildingFunction_current> <https://w3id.org/con-tax#rangeOrObjectIncludes> <http://w3id.org/con-tax/zones/et-buildings#466> .
-<https://w3id.org/con-tax/properties/bhp#buildingFunction_current> <https://w3id.org/con-tax#rangeOrObjectIncludes> <http://w3id.org/con-tax/zones/et-buildings#520> .
-<https://w3id.org/con-tax/properties/bhp#buildingFunction_current> <https://w3id.org/con-tax#rangeOrObjectIncludes> <http://w3id.org/con-tax/zones/et-buildings#63> .
 <https://w3id.org/con-tax/properties/bhp#buildingFunction_current> <https://w3id.org/con-tax#rangeOrObjectIncludes> <https://w3id.org/con-tax/zones/aat-buildings#300004790> .
+<https://w3id.org/con-tax/properties/bhp#buildingFunction_current> <https://w3id.org/con-tax#rangeOrObjectIncludes> <https://w3id.org/con-tax/zones/et-buildings#1226> .
+<https://w3id.org/con-tax/properties/bhp#buildingFunction_current> <https://w3id.org/con-tax#rangeOrObjectIncludes> <https://w3id.org/con-tax/zones/et-buildings#1271> .
+<https://w3id.org/con-tax/properties/bhp#buildingFunction_current> <https://w3id.org/con-tax#rangeOrObjectIncludes> <https://w3id.org/con-tax/zones/et-buildings#293> .
+<https://w3id.org/con-tax/properties/bhp#buildingFunction_current> <https://w3id.org/con-tax#rangeOrObjectIncludes> <https://w3id.org/con-tax/zones/et-buildings#319> .
+<https://w3id.org/con-tax/properties/bhp#buildingFunction_current> <https://w3id.org/con-tax#rangeOrObjectIncludes> <https://w3id.org/con-tax/zones/et-buildings#321> .
+<https://w3id.org/con-tax/properties/bhp#buildingFunction_current> <https://w3id.org/con-tax#rangeOrObjectIncludes> <https://w3id.org/con-tax/zones/et-buildings#323> .
+<https://w3id.org/con-tax/properties/bhp#buildingFunction_current> <https://w3id.org/con-tax#rangeOrObjectIncludes> <https://w3id.org/con-tax/zones/et-buildings#359> .
+<https://w3id.org/con-tax/properties/bhp#buildingFunction_current> <https://w3id.org/con-tax#rangeOrObjectIncludes> <https://w3id.org/con-tax/zones/et-buildings#466> .
+<https://w3id.org/con-tax/properties/bhp#buildingFunction_current> <https://w3id.org/con-tax#rangeOrObjectIncludes> <https://w3id.org/con-tax/zones/et-buildings#520> .
+<https://w3id.org/con-tax/properties/bhp#buildingFunction_current> <https://w3id.org/con-tax#rangeOrObjectIncludes> <https://w3id.org/con-tax/zones/et-buildings#63> .
 # 
 # https://w3id.org/con-tax/properties/bhp#buildingFunction_original
 <https://w3id.org/con-tax/properties/bhp#buildingFunction_original> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -138,17 +138,17 @@ _:genid1 <http://www.w3.org/2006/vcard/ns#hasURL> <https://www.researchgate.net/
 <https://w3id.org/con-tax/properties/bhp#buildingFunction_original> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/con-tax/properties/bhp> .
 <https://w3id.org/con-tax/properties/bhp#buildingFunction_original> <http://www.w3.org/2000/01/rdf-schema#label> "original building function"@en .
 <https://w3id.org/con-tax/properties/bhp#buildingFunction_original> <https://w3id.org/con-tax#domainOrSubjectIncludes> <https://w3id.org/bot#Building> .
-<https://w3id.org/con-tax/properties/bhp#buildingFunction_original> <https://w3id.org/con-tax#rangeOrObjectIncludes> <http://w3id.org/con-tax/zones/et-buildings#1226> .
-<https://w3id.org/con-tax/properties/bhp#buildingFunction_original> <https://w3id.org/con-tax#rangeOrObjectIncludes> <http://w3id.org/con-tax/zones/et-buildings#1271> .
-<https://w3id.org/con-tax/properties/bhp#buildingFunction_original> <https://w3id.org/con-tax#rangeOrObjectIncludes> <http://w3id.org/con-tax/zones/et-buildings#293> .
-<https://w3id.org/con-tax/properties/bhp#buildingFunction_original> <https://w3id.org/con-tax#rangeOrObjectIncludes> <http://w3id.org/con-tax/zones/et-buildings#319> .
-<https://w3id.org/con-tax/properties/bhp#buildingFunction_original> <https://w3id.org/con-tax#rangeOrObjectIncludes> <http://w3id.org/con-tax/zones/et-buildings#321> .
-<https://w3id.org/con-tax/properties/bhp#buildingFunction_original> <https://w3id.org/con-tax#rangeOrObjectIncludes> <http://w3id.org/con-tax/zones/et-buildings#323> .
-<https://w3id.org/con-tax/properties/bhp#buildingFunction_original> <https://w3id.org/con-tax#rangeOrObjectIncludes> <http://w3id.org/con-tax/zones/et-buildings#359> .
-<https://w3id.org/con-tax/properties/bhp#buildingFunction_original> <https://w3id.org/con-tax#rangeOrObjectIncludes> <http://w3id.org/con-tax/zones/et-buildings#466> .
-<https://w3id.org/con-tax/properties/bhp#buildingFunction_original> <https://w3id.org/con-tax#rangeOrObjectIncludes> <http://w3id.org/con-tax/zones/et-buildings#520> .
-<https://w3id.org/con-tax/properties/bhp#buildingFunction_original> <https://w3id.org/con-tax#rangeOrObjectIncludes> <http://w3id.org/con-tax/zones/et-buildings#63> .
 <https://w3id.org/con-tax/properties/bhp#buildingFunction_original> <https://w3id.org/con-tax#rangeOrObjectIncludes> <https://w3id.org/con-tax/zones/aat-buildings#300004790> .
+<https://w3id.org/con-tax/properties/bhp#buildingFunction_original> <https://w3id.org/con-tax#rangeOrObjectIncludes> <https://w3id.org/con-tax/zones/et-buildings#1226> .
+<https://w3id.org/con-tax/properties/bhp#buildingFunction_original> <https://w3id.org/con-tax#rangeOrObjectIncludes> <https://w3id.org/con-tax/zones/et-buildings#1271> .
+<https://w3id.org/con-tax/properties/bhp#buildingFunction_original> <https://w3id.org/con-tax#rangeOrObjectIncludes> <https://w3id.org/con-tax/zones/et-buildings#293> .
+<https://w3id.org/con-tax/properties/bhp#buildingFunction_original> <https://w3id.org/con-tax#rangeOrObjectIncludes> <https://w3id.org/con-tax/zones/et-buildings#319> .
+<https://w3id.org/con-tax/properties/bhp#buildingFunction_original> <https://w3id.org/con-tax#rangeOrObjectIncludes> <https://w3id.org/con-tax/zones/et-buildings#321> .
+<https://w3id.org/con-tax/properties/bhp#buildingFunction_original> <https://w3id.org/con-tax#rangeOrObjectIncludes> <https://w3id.org/con-tax/zones/et-buildings#323> .
+<https://w3id.org/con-tax/properties/bhp#buildingFunction_original> <https://w3id.org/con-tax#rangeOrObjectIncludes> <https://w3id.org/con-tax/zones/et-buildings#359> .
+<https://w3id.org/con-tax/properties/bhp#buildingFunction_original> <https://w3id.org/con-tax#rangeOrObjectIncludes> <https://w3id.org/con-tax/zones/et-buildings#466> .
+<https://w3id.org/con-tax/properties/bhp#buildingFunction_original> <https://w3id.org/con-tax#rangeOrObjectIncludes> <https://w3id.org/con-tax/zones/et-buildings#520> .
+<https://w3id.org/con-tax/properties/bhp#buildingFunction_original> <https://w3id.org/con-tax#rangeOrObjectIncludes> <https://w3id.org/con-tax/zones/et-buildings#63> .
 # 
 # https://w3id.org/con-tax/properties/bhp#buildingFunction_past
 <https://w3id.org/con-tax/properties/bhp#buildingFunction_past> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -158,17 +158,17 @@ _:genid1 <http://www.w3.org/2006/vcard/ns#hasURL> <https://www.researchgate.net/
 <https://w3id.org/con-tax/properties/bhp#buildingFunction_past> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/con-tax/properties/bhp> .
 <https://w3id.org/con-tax/properties/bhp#buildingFunction_past> <http://www.w3.org/2000/01/rdf-schema#label> "past building function"@en .
 <https://w3id.org/con-tax/properties/bhp#buildingFunction_past> <https://w3id.org/con-tax#domainOrSubjectIncludes> <https://w3id.org/bot#Building> .
-<https://w3id.org/con-tax/properties/bhp#buildingFunction_past> <https://w3id.org/con-tax#rangeOrObjectIncludes> <http://w3id.org/con-tax/zones/et-buildings#1226> .
-<https://w3id.org/con-tax/properties/bhp#buildingFunction_past> <https://w3id.org/con-tax#rangeOrObjectIncludes> <http://w3id.org/con-tax/zones/et-buildings#1271> .
-<https://w3id.org/con-tax/properties/bhp#buildingFunction_past> <https://w3id.org/con-tax#rangeOrObjectIncludes> <http://w3id.org/con-tax/zones/et-buildings#293> .
-<https://w3id.org/con-tax/properties/bhp#buildingFunction_past> <https://w3id.org/con-tax#rangeOrObjectIncludes> <http://w3id.org/con-tax/zones/et-buildings#319> .
-<https://w3id.org/con-tax/properties/bhp#buildingFunction_past> <https://w3id.org/con-tax#rangeOrObjectIncludes> <http://w3id.org/con-tax/zones/et-buildings#321> .
-<https://w3id.org/con-tax/properties/bhp#buildingFunction_past> <https://w3id.org/con-tax#rangeOrObjectIncludes> <http://w3id.org/con-tax/zones/et-buildings#323> .
-<https://w3id.org/con-tax/properties/bhp#buildingFunction_past> <https://w3id.org/con-tax#rangeOrObjectIncludes> <http://w3id.org/con-tax/zones/et-buildings#359> .
-<https://w3id.org/con-tax/properties/bhp#buildingFunction_past> <https://w3id.org/con-tax#rangeOrObjectIncludes> <http://w3id.org/con-tax/zones/et-buildings#466> .
-<https://w3id.org/con-tax/properties/bhp#buildingFunction_past> <https://w3id.org/con-tax#rangeOrObjectIncludes> <http://w3id.org/con-tax/zones/et-buildings#520> .
-<https://w3id.org/con-tax/properties/bhp#buildingFunction_past> <https://w3id.org/con-tax#rangeOrObjectIncludes> <http://w3id.org/con-tax/zones/et-buildings#63> .
 <https://w3id.org/con-tax/properties/bhp#buildingFunction_past> <https://w3id.org/con-tax#rangeOrObjectIncludes> <https://w3id.org/con-tax/zones/aat-buildings#300004790> .
+<https://w3id.org/con-tax/properties/bhp#buildingFunction_past> <https://w3id.org/con-tax#rangeOrObjectIncludes> <https://w3id.org/con-tax/zones/et-buildings#1226> .
+<https://w3id.org/con-tax/properties/bhp#buildingFunction_past> <https://w3id.org/con-tax#rangeOrObjectIncludes> <https://w3id.org/con-tax/zones/et-buildings#1271> .
+<https://w3id.org/con-tax/properties/bhp#buildingFunction_past> <https://w3id.org/con-tax#rangeOrObjectIncludes> <https://w3id.org/con-tax/zones/et-buildings#293> .
+<https://w3id.org/con-tax/properties/bhp#buildingFunction_past> <https://w3id.org/con-tax#rangeOrObjectIncludes> <https://w3id.org/con-tax/zones/et-buildings#319> .
+<https://w3id.org/con-tax/properties/bhp#buildingFunction_past> <https://w3id.org/con-tax#rangeOrObjectIncludes> <https://w3id.org/con-tax/zones/et-buildings#321> .
+<https://w3id.org/con-tax/properties/bhp#buildingFunction_past> <https://w3id.org/con-tax#rangeOrObjectIncludes> <https://w3id.org/con-tax/zones/et-buildings#323> .
+<https://w3id.org/con-tax/properties/bhp#buildingFunction_past> <https://w3id.org/con-tax#rangeOrObjectIncludes> <https://w3id.org/con-tax/zones/et-buildings#359> .
+<https://w3id.org/con-tax/properties/bhp#buildingFunction_past> <https://w3id.org/con-tax#rangeOrObjectIncludes> <https://w3id.org/con-tax/zones/et-buildings#466> .
+<https://w3id.org/con-tax/properties/bhp#buildingFunction_past> <https://w3id.org/con-tax#rangeOrObjectIncludes> <https://w3id.org/con-tax/zones/et-buildings#520> .
+<https://w3id.org/con-tax/properties/bhp#buildingFunction_past> <https://w3id.org/con-tax#rangeOrObjectIncludes> <https://w3id.org/con-tax/zones/et-buildings#63> .
 # 
 # https://w3id.org/con-tax/properties/bhp#describedByHistoricalSource
 <https://w3id.org/con-tax/properties/bhp#describedByHistoricalSource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -259,6 +259,28 @@ _:genid1 <http://www.w3.org/2006/vcard/ns#hasURL> <https://www.researchgate.net/
 <https://w3id.org/con-tax/properties/bhp#originsFromPeriod> <https://w3id.org/con-tax#rangeOrObjectIncludes> <https://id.erfgoed.net/thesauri/dateringen/1236> .
 <https://w3id.org/con-tax/properties/bhp#originsFromPeriod> <https://w3id.org/con-tax#rangeOrObjectIncludes> <https://id.erfgoed.net/thesauri/dateringen/1237> .
 # 
+# https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooks
+<https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooks> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/con-tax#property_OP> .
+<https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooks> <http://purl.org/dc/terms/source> <https://www.monumentenwacht.be/> .
+<https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooks> <http://www.w3.org/2000/01/rdf-schema#comment> "Quantitative property to indicate the percentage of the roof that is provided with safety hooks for ladders and/or fall protection. Property definition inspired by the Monumentenwacht Vlaanderen databases (MAKSBO and IMACS)."@en .
+<https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooks> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/con-tax/properties/bhp> .
+<https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooks> <http://www.w3.org/2000/01/rdf-schema#label> "% of roof safety hooks"@en .
+<https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooks> <https://w3id.org/con-tax#domainOrSubjectIncludes> <http://pi.pauwel.be/voc/buildingelement#Slab-ROOF> .
+<https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooks> <https://w3id.org/con-tax#domainOrSubjectIncludes> <https://w3id.org/con-tax/components/aat-arch#300002098> .
+<https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooks> <https://w3id.org/con-tax#rangeOrObjectIncludes> <http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooksEN517
+<https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooksEN517> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooksEN517> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooks> .
+<https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooksEN517> <http://purl.org/dc/terms/source> <https://www.monumentenwacht.be/> .
+<https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooksEN517> <http://www.w3.org/2000/01/rdf-schema#comment> "Quantitative property to indicate the percentage of the roof that is provided with safety hooks for ladders and/or fall protection that comply with the European standard EN 517. Property definition inspired by the Monumentenwacht Vlaanderen databases (MAKSBO and IMACS)."@en .
+<https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooksEN517> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/con-tax/properties/bhp> .
+<https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooksEN517> <http://www.w3.org/2000/01/rdf-schema#label> "% of roof safety hooks EN 517"@en .
+<https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooksEN517> <https://w3id.org/con-tax#domainOrSubjectIncludes> <http://pi.pauwel.be/voc/buildingelement#Slab-ROOF> .
+<https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooksEN517> <https://w3id.org/con-tax#domainOrSubjectIncludes> <https://w3id.org/con-tax/components/aat-arch#300002098> .
+<https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooksEN517> <https://w3id.org/con-tax#rangeOrObjectIncludes> <http://www.w3.org/2001/XMLSchema#decimal> .
+# 
 # https://w3id.org/con-tax/properties/bhp#relatedArchitect
 <https://w3id.org/con-tax/properties/bhp#relatedArchitect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/con-tax/properties/bhp#relatedArchitect> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/con-tax#property_OP> .
@@ -296,55 +318,36 @@ _:genid1 <http://www.w3.org/2006/vcard/ns#hasURL> <https://www.researchgate.net/
 # https://w3id.org/con-tax/properties/bhp#mw-assessmentScore-BPC
 <https://w3id.org/con-tax/properties/bhp#mw-assessmentScore-BPC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/con-tax/properties/bhp#mw-assessmentScore-BPC> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/con-tax/properties/cp#assessmentScore> .
+<https://w3id.org/con-tax/properties/bhp#mw-assessmentScore-BPC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
 <https://w3id.org/con-tax/properties/bhp#mw-assessmentScore-BPC> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <https://w3id.org/con-tax/properties/bhp#mw-assessmentScore-BPC> <http://purl.org/dc/terms/source> <https://www.monumentenwacht.be/> .
-<https://w3id.org/con-tax/properties/bhp#mw-assessmentScore-BPC> <http://www.w3.org/2000/01/rdf-schema#comment> "Property to indicate the building physical condition (BPC) of an assessment connected to an assessed object (cp:hasAssessment) according to the methodology of Monumentenwacht Vlaanderen. The value of the property should be a positive integer between 1 and 6. The scale should be interpretted as follows:\n1 = excellent\n2 = good\n3 = fair\n4 = average\n5 = bad\n6 = very bad"@en .
+<https://w3id.org/con-tax/properties/bhp#mw-assessmentScore-BPC> <http://www.w3.org/2000/01/rdf-schema#comment> "Property to indicate the building physical condition (BPC) of an assessment (cp:Assessment) connected to an assessed object (cp:hasAssessment) according to the methodology of Monumentenwacht Vlaanderen. According to the methodology of Monumentenwacht, this type of assessment should be performed for each of the following six parts of an inspected construction: (1) the construction a whole, (2) the roof(s), (3) the rain water disposal system, (4) the roof structure(s), (5) the general load bearing structure and (6) the framework and glazing of doors and windows. \r\n\r\nThe value of the property should be a positive integer between 1 and 6. The scale should be interpretted as follows:\n1 = excellent\n2 = good\n3 = fair\n4 = average\n5 = bad\n6 = very bad"@en .
 <https://w3id.org/con-tax/properties/bhp#mw-assessmentScore-BPC> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/con-tax/properties/bhp> .
 <https://w3id.org/con-tax/properties/bhp#mw-assessmentScore-BPC> <http://www.w3.org/2000/01/rdf-schema#label> "building physical condition score (according Monumentenwacht)"@en .
 # 
 # https://w3id.org/con-tax/properties/bhp#mw-assessmentScore-RCD
 <https://w3id.org/con-tax/properties/bhp#mw-assessmentScore-RCD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/con-tax/properties/bhp#mw-assessmentScore-RCD> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/con-tax/properties/cp#assessmentScore> .
+<https://w3id.org/con-tax/properties/bhp#mw-assessmentScore-RCD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
 <https://w3id.org/con-tax/properties/bhp#mw-assessmentScore-RCD> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <https://w3id.org/con-tax/properties/bhp#mw-assessmentScore-RCD> <http://purl.org/dc/terms/source> <https://www.monumentenwacht.be/> .
-<https://w3id.org/con-tax/properties/bhp#mw-assessmentScore-RCD> <http://www.w3.org/2000/01/rdf-schema#comment> "Property to indicate the risk for consequential damage (in case the owner does not react properly to the detected damages) of an assessment connected to an assessed object (cp:hasAssessment) according to the methodology of Monumentenwacht Vlaanderen. The value of the property should be a positive integer between 1 and 6. The scale should be interpretted as follows:\n1 = no risk\n2 = low risk\n3 = fair risk\n4 = considerable risk\n5 = high risk\n6 = acute risk"@en .
+<https://w3id.org/con-tax/properties/bhp#mw-assessmentScore-RCD> <http://www.w3.org/2000/01/rdf-schema#comment> "Property to indicate the risk for consequential damage (in case the owner does not react properly to the detected damages) of an assessment (cp:Assessment) connected to an assessed object (cp:hasAssessment) connected to an assessed object (cp:hasAssessment) according to the methodology of Monumentenwacht Vlaanderen. According to the methodology of Monumentenwacht, this type of assessment should be performed for each of the following six parts of an inspected construction: (1) the construction a whole, (2) the roof(s), (3) the rain water disposal system, (4) the roof structure(s), (5) the general load bearing structure and (6) the framework and glazing of doors and windows. \r\n\r\nThe value of the property should be a positive integer between 1 and 6. The scale should be interpretted as follows:\n1 = no risk\n2 = low risk\n3 = fair risk\n4 = considerable risk\n5 = high risk\n6 = acute risk"@en .
 <https://w3id.org/con-tax/properties/bhp#mw-assessmentScore-RCD> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/con-tax/properties/bhp> .
 <https://w3id.org/con-tax/properties/bhp#mw-assessmentScore-RCD> <http://www.w3.org/2000/01/rdf-schema#label> "risk for consequential damage score (according Monumentenwacht)"@en .
 # 
 # https://w3id.org/con-tax/properties/bhp#mw-assessmentScore-maintenance
 <https://w3id.org/con-tax/properties/bhp#mw-assessmentScore-maintenance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/con-tax/properties/bhp#mw-assessmentScore-maintenance> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/con-tax/properties/cp#assessmentScore> .
+<https://w3id.org/con-tax/properties/bhp#mw-assessmentScore-maintenance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
 <https://w3id.org/con-tax/properties/bhp#mw-assessmentScore-maintenance> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <https://w3id.org/con-tax/properties/bhp#mw-assessmentScore-maintenance> <http://purl.org/dc/terms/source> <https://www.monumentenwacht.be/> .
-<https://w3id.org/con-tax/properties/bhp#mw-assessmentScore-maintenance> <http://www.w3.org/2000/01/rdf-schema#comment> "Property to indicate the attitude and quality of the current maintenance policies of an assessment connected to an assessed object (cp:hasAssessment) according to the methodology of Monumentenwacht Vlaanderen. The value of the property should be a positive integer between 1 and 6. The scale should be interpretted as follows:\n1 = excellent\n2 = good\n3 = fair\n4 = average\n5 = bad\n6 = very bad"@en .
+<https://w3id.org/con-tax/properties/bhp#mw-assessmentScore-maintenance> <http://www.w3.org/2000/01/rdf-schema#comment> "Property to indicate the attitude and quality of the current maintenance policies of an assessment (cp:Assessment) connected to an assessed object (cp:hasAssessment) according to the methodology of Monumentenwacht Vlaanderen. According to the methodology of Monumentenwacht, this type of assessment should be performed for each of the following six parts of an inspected construction: (1) the construction a whole, (2) the roof(s), (3) the rain water disposal system, (4) the roof structure(s), (5) the general load bearing structure and (6) the framework and glazing of doors and windows. \r\n\r\nThe value of the property should be a positive integer between 1 and 6. The scale should be interpretted as follows:\n1 = excellent\n2 = good\n3 = fair\n4 = average\n5 = bad\n6 = very bad"@en .
 <https://w3id.org/con-tax/properties/bhp#mw-assessmentScore-maintenance> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/con-tax/properties/bhp> .
 <https://w3id.org/con-tax/properties/bhp#mw-assessmentScore-maintenance> <http://www.w3.org/2000/01/rdf-schema#label> "maintenance score (according Monumentenwacht)"@en .
 # 
-# https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooks
-<https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooks> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/con-tax#property_DP> .
-<https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooks> <http://purl.org/dc/terms/source> <https://www.monumentenwacht.be/> .
-<https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooks> <http://www.w3.org/2000/01/rdf-schema#comment> "Quantitative property to indicate the percentage of the roof that is provided with safety hooks for ladders and/or fall protection. Property definition inspired by the Monumentenwacht Vlaanderen databases (MAKSBO and IMACS)."@en .
-<https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooks> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/con-tax/properties/bhp> .
-<https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooks> <http://www.w3.org/2000/01/rdf-schema#label> "% of roof safety hooks"@en .
-<https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooks> <https://w3id.org/con-tax#domainOrSubjectIncludes> <http://pi.pauwel.be/voc/buildingelement#Slab-ROOF> .
-<https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooks> <https://w3id.org/con-tax#domainOrSubjectIncludes> <https://w3id.org/con-tax/components/aat-arch#300002098> .
-<https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooks> <https://w3id.org/con-tax#rangeOrObjectIncludes> <http://www.w3.org/2001/XMLSchema#decimal> .
-# 
-# https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooksEN517
-<https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooksEN517> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooksEN517> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooks> .
-<https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooksEN517> <http://purl.org/dc/terms/source> <https://www.monumentenwacht.be/> .
-<https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooksEN517> <http://www.w3.org/2000/01/rdf-schema#comment> "Quantitative property to indicate the percentage of the roof that is provided with safety hooks for ladders and/or fall protection that comply with the European standard EN 517. Property definition inspired by the Monumentenwacht Vlaanderen databases (MAKSBO and IMACS)."@en .
-<https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooksEN517> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/con-tax/properties/bhp> .
-<https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooksEN517> <http://www.w3.org/2000/01/rdf-schema#label> "% of roof safety hooks EN 517"@en .
-<https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooksEN517> <https://w3id.org/con-tax#domainOrSubjectIncludes> <http://pi.pauwel.be/voc/buildingelement#Slab-ROOF> .
-<https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooksEN517> <https://w3id.org/con-tax#domainOrSubjectIncludes> <https://w3id.org/con-tax/components/aat-arch#300002098> .
-<https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooksEN517> <https://w3id.org/con-tax#rangeOrObjectIncludes> <http://www.w3.org/2001/XMLSchema#decimal> .
-# 
 # https://w3id.org/con-tax/properties/cp#assessmentScore
 <https://w3id.org/con-tax/properties/cp#assessmentScore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://w3id.org/con-tax/properties/cp#assessmentScore> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/con-tax#property_DP> .
+<https://w3id.org/con-tax/properties/cp#assessmentScore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
 # 
 # 
 # 
@@ -406,38 +409,6 @@ _:genid1 <http://www.w3.org/2006/vcard/ns#hasURL> <https://www.researchgate.net/
 # http://pi.pauwel.be/voc/buildingelement#Slab-ROOF
 <http://pi.pauwel.be/voc/buildingelement#Slab-ROOF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://pi.pauwel.be/voc/buildingelement#Slab-ROOF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
-# 
-# http://w3id.org/con-tax/zones/et-buildings293
-<http://w3id.org/con-tax/zones/et-buildings293> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://w3id.org/con-tax/zones/et-buildings293> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
-# 
-# http://w3id.org/con-tax/zones/et-buildings#319
-<http://w3id.org/con-tax/zones/et-buildings#319> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://w3id.org/con-tax/zones/et-buildings#319> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
-# 
-# http://w3id.org/con-tax/zones/et-buildings#321
-<http://w3id.org/con-tax/zones/et-buildings#321> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://w3id.org/con-tax/zones/et-buildings#321> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
-# 
-# http://w3id.org/con-tax/zones/et-buildings#323
-<http://w3id.org/con-tax/zones/et-buildings#323> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://w3id.org/con-tax/zones/et-buildings#323> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
-# 
-# http://w3id.org/con-tax/zones/et-buildings#359
-<http://w3id.org/con-tax/zones/et-buildings#359> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://w3id.org/con-tax/zones/et-buildings#359> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
-# 
-# http://w3id.org/con-tax/zones/et-buildings#466
-<http://w3id.org/con-tax/zones/et-buildings#466> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://w3id.org/con-tax/zones/et-buildings#466> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
-# 
-# http://w3id.org/con-tax/zones/et-buildings#520
-<http://w3id.org/con-tax/zones/et-buildings#520> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://w3id.org/con-tax/zones/et-buildings#520> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
-# 
-# http://w3id.org/con-tax/zones/et-buildings#63
-<http://w3id.org/con-tax/zones/et-buildings#63> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://w3id.org/con-tax/zones/et-buildings#63> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
 # 
 # http://www.w3.org/2006/vcard/ns#Individual
 <http://www.w3.org/2006/vcard/ns#Individual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -502,6 +473,38 @@ _:genid1 <http://www.w3.org/2006/vcard/ns#hasURL> <https://www.researchgate.net/
 # https://w3id.org/con-tax/zones/aat-buildings#300004790
 <https://w3id.org/con-tax/zones/aat-buildings#300004790> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/con-tax/zones/aat-buildings#300004790> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+# 
+# https://w3id.org/con-tax/zones/et-buildings#293
+<https://w3id.org/con-tax/zones/et-buildings#293> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/con-tax/zones/et-buildings#293> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+# 
+# https://w3id.org/con-tax/zones/et-buildings#319
+<https://w3id.org/con-tax/zones/et-buildings#319> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/con-tax/zones/et-buildings#319> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+# 
+# https://w3id.org/con-tax/zones/et-buildings#321
+<https://w3id.org/con-tax/zones/et-buildings#321> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/con-tax/zones/et-buildings#321> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+# 
+# https://w3id.org/con-tax/zones/et-buildings#323
+<https://w3id.org/con-tax/zones/et-buildings#323> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/con-tax/zones/et-buildings#323> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+# 
+# https://w3id.org/con-tax/zones/et-buildings#359
+<https://w3id.org/con-tax/zones/et-buildings#359> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/con-tax/zones/et-buildings#359> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+# 
+# https://w3id.org/con-tax/zones/et-buildings#466
+<https://w3id.org/con-tax/zones/et-buildings#466> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/con-tax/zones/et-buildings#466> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+# 
+# https://w3id.org/con-tax/zones/et-buildings#520
+<https://w3id.org/con-tax/zones/et-buildings#520> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/con-tax/zones/et-buildings#520> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+# 
+# https://w3id.org/con-tax/zones/et-buildings#63
+<https://w3id.org/con-tax/zones/et-buildings#63> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/con-tax/zones/et-buildings#63> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
 # 
 # https://www.monumentenwacht.be/
 <https://www.monumentenwacht.be/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

@@ -2,7 +2,8 @@
 # prefix: bhp
 
 @prefix : <https://w3id.org/con-tax/properties/bhp#> .
-@prefix aat: <http://vocab.getty.edu/aat/> .
+@prefix aat-arch: <https://w3id.org/con-tax/components/aat-arch#> .
+@prefix beo: <http://pi.pauwel.be/voc/buildingelement#> .
 @prefix bhp: <https://w3id.org/con-tax/properties/bhp#> .
 @prefix bot: <https://w3id.org/bot#> .
 @prefix cc: <http://creativecommons.org/ns#> .
@@ -10,9 +11,7 @@
 @prefix cp: <https://w3id.org/con-tax/properties/cp#> .
 @prefix dbr: <http://dbpedia.org/resource/> .
 @prefix dct: <http://purl.org/dc/terms/> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix gvp: <http://vocab.getty.edu/ontology#> .
-@prefix iso-thes: <http://purl.org/iso25964/skos-thes#> .
+@prefix et-buildings: <https://w3id.org/con-tax/zones/et-buildings#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -21,38 +20,36 @@
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix voaf: <http://purl.org/vocommons/voaf#> .
-@prefix wd: <http://www.wikidata.org/entity/> .
-@prefix xl: <http://www.w3.org/2008/05/skos-xl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://pi.pauwel.be/voc/buildingelement#Slab-ROOF>
+beo:Slab-ROOF
   rdf:type rdfs:Resource ;
 .
-dcterms:source
+dct:source
   rdf:type rdf:Property ;
 .
-<http://w3id.org/con-tax/zones/et-buildings#319>
+<https://w3id.org/con-tax/zones/et-buildings#319>
   rdf:type rdfs:Resource ;
 .
-<http://w3id.org/con-tax/zones/et-buildings#321>
+<https://w3id.org/con-tax/zones/et-buildings#321>
   rdf:type rdfs:Resource ;
 .
-<http://w3id.org/con-tax/zones/et-buildings#323>
+<https://w3id.org/con-tax/zones/et-buildings#323>
   rdf:type rdfs:Resource ;
 .
-<http://w3id.org/con-tax/zones/et-buildings#359>
+<https://w3id.org/con-tax/zones/et-buildings#359>
   rdf:type rdfs:Resource ;
 .
-<http://w3id.org/con-tax/zones/et-buildings#466>
+<https://w3id.org/con-tax/zones/et-buildings#466>
   rdf:type rdfs:Resource ;
 .
-<http://w3id.org/con-tax/zones/et-buildings#520>
+<https://w3id.org/con-tax/zones/et-buildings#520>
   rdf:type rdfs:Resource ;
 .
-<http://w3id.org/con-tax/zones/et-buildings#63>
+<https://w3id.org/con-tax/zones/et-buildings#63>
   rdf:type rdfs:Resource ;
 .
-<http://w3id.org/con-tax/zones/et-buildings293>
+<https://w3id.org/con-tax/zones/et-buildings#293>
   rdf:type rdfs:Resource ;
 .
 vcard:Individual
@@ -137,7 +134,7 @@ contax:rangeOrObjectIncludes
   rdf:type voaf:Vocabulary ;
   rdf:type owl:Ontology ;
   cc:license <https://creativecommons.org/licenses/by/4.0/> ;
-  dcterms:creator [
+  dct:creator [
       rdf:type vcard:Individual ;
       vcard:family-name "Bonduel" ;
       vcard:fn "Mathias Bonduel" ;
@@ -152,9 +149,9 @@ contax:rangeOrObjectIncludes
       vcard:hasURL <https://www.kuleuven.be/wieiswie/nl/person/00110827> ;
       vcard:hasURL <https://www.researchgate.net/profile/Mathias_Bonduel> ;
     ] ;
-  dcterms:description "This ontology contains a preliminary list of properties that might prove useful to describe heritage buildings. The properties are inspired by (1) the databases of Monumentenwacht Vlaanderen (MAKSBO and IMACS), (2) the online built heritage inventory of Onroerend Erfgoed Vlaanderen and (3) the results of interviews with a large variety of Flemish built heritage stakeholders."@en ;
-  dcterms:issued "2020-11-30"^^xsd:date ;
-  dcterms:title "Built Heritage Properties (BHP) taxonomy"@en ;
+  dct:description "This ontology contains a preliminary list of properties that might prove useful to describe heritage buildings. Besides two taxonomies of general built heritage properties, extending resp. contax:property_OP and contax:property_DP, it also contains terminology for the more specific patterns related to construction assessments (extending the more generic Construction Properties (CP) taxonomy). The properties are inspired by (1) the databases of Monumentenwacht Vlaanderen (MAKSBO and IMACS), (2) the online built heritage inventory of Onroerend Erfgoed Vlaanderen and (3) the results of interviews with a large variety of Flemish built heritage stakeholders."@en ;
+  dct:issued "2020-12-19"^^xsd:date ;
+  dct:title "Built Heritage Properties (BHP) taxonomy"@en ;
   vann:preferredNamespacePrefix "bhp" ;
   vann:preferredNamespaceUri "https://w3id.org/con-tax/properties/bhp#" ;
   rdfs:comment "- Version 0.0.1: initial version"@en ;
@@ -162,82 +159,82 @@ contax:rangeOrObjectIncludes
 .
 bhp:buildingFunction
   rdf:type owl:ObjectProperty ;
-  dcterms:source <https://www.monumentenwacht.be/> ;
+  dct:source <https://www.monumentenwacht.be/> ;
   rdfs:comment "Property to assign a function to a certain built heritage building. For the Flemish context, predefined property values can be used from ET-BUILDINGS taxonomy, based on the Onroerend Erfgoed thesaurus \"ERFGOEDTYPES\", and the AAT-BUILDINGS taxonomy based on the Getty AAT. Property definition inspired by the Monumentenwacht Vlaanderen databases (MAKSBO and IMACS)."@en ;
   rdfs:isDefinedBy <https://w3id.org/con-tax/properties/bhp> ;
   rdfs:label "building function"@en ;
   rdfs:subPropertyOf contax:property_OP ;
   contax:domainOrSubjectIncludes bot:Building ;
-  contax:rangeOrObjectIncludes <http://w3id.org/con-tax/zones/et-buildings#1226> ;
-  contax:rangeOrObjectIncludes <http://w3id.org/con-tax/zones/et-buildings#1271> ;
-  contax:rangeOrObjectIncludes <http://w3id.org/con-tax/zones/et-buildings#293> ;
-  contax:rangeOrObjectIncludes <http://w3id.org/con-tax/zones/et-buildings#319> ;
-  contax:rangeOrObjectIncludes <http://w3id.org/con-tax/zones/et-buildings#321> ;
-  contax:rangeOrObjectIncludes <http://w3id.org/con-tax/zones/et-buildings#323> ;
-  contax:rangeOrObjectIncludes <http://w3id.org/con-tax/zones/et-buildings#359> ;
-  contax:rangeOrObjectIncludes <http://w3id.org/con-tax/zones/et-buildings#466> ;
-  contax:rangeOrObjectIncludes <http://w3id.org/con-tax/zones/et-buildings#520> ;
-  contax:rangeOrObjectIncludes <http://w3id.org/con-tax/zones/et-buildings#63> ;
+  contax:rangeOrObjectIncludes <https://w3id.org/con-tax/zones/et-buildings#1226> ;
+  contax:rangeOrObjectIncludes <https://w3id.org/con-tax/zones/et-buildings#1271> ;
+  contax:rangeOrObjectIncludes <https://w3id.org/con-tax/zones/et-buildings#293> ;
+  contax:rangeOrObjectIncludes <https://w3id.org/con-tax/zones/et-buildings#319> ;
+  contax:rangeOrObjectIncludes <https://w3id.org/con-tax/zones/et-buildings#321> ;
+  contax:rangeOrObjectIncludes <https://w3id.org/con-tax/zones/et-buildings#323> ;
+  contax:rangeOrObjectIncludes <https://w3id.org/con-tax/zones/et-buildings#359> ;
+  contax:rangeOrObjectIncludes <https://w3id.org/con-tax/zones/et-buildings#466> ;
+  contax:rangeOrObjectIncludes <https://w3id.org/con-tax/zones/et-buildings#520> ;
+  contax:rangeOrObjectIncludes <https://w3id.org/con-tax/zones/et-buildings#63> ;
   contax:rangeOrObjectIncludes <https://w3id.org/con-tax/zones/aat-buildings#300004790> ;
 .
 bhp:buildingFunction_current
   rdf:type owl:ObjectProperty ;
-  dcterms:source <https://www.monumentenwacht.be/> ;
+  dct:source <https://www.monumentenwacht.be/> ;
   rdfs:comment "Property to assign a current function to a certain built heritage building. An alternative way of modeling the current function of a building is by attaching the appropriate class (specialization of bot:Building) to the building node via an rdf:type relation. For the Flemish context, predefined property values can be used from ET-BUILDINGS taxonomy, based on the Onroerend Erfgoed thesaurus \"ERFGOEDTYPES\", and the AAT-BUILDINGS taxonomy based on the Getty AAT. Property definition inspired by the Monumentenwacht Vlaanderen databases (MAKSBO and IMACS)."@en ;
   rdfs:isDefinedBy <https://w3id.org/con-tax/properties/bhp> ;
   rdfs:label "current building function"@en ;
   rdfs:subPropertyOf bhp:buildingFunction ;
   contax:domainOrSubjectIncludes bot:Building ;
-  contax:rangeOrObjectIncludes <http://w3id.org/con-tax/zones/et-buildings#1226> ;
-  contax:rangeOrObjectIncludes <http://w3id.org/con-tax/zones/et-buildings#1271> ;
-  contax:rangeOrObjectIncludes <http://w3id.org/con-tax/zones/et-buildings#293> ;
-  contax:rangeOrObjectIncludes <http://w3id.org/con-tax/zones/et-buildings#319> ;
-  contax:rangeOrObjectIncludes <http://w3id.org/con-tax/zones/et-buildings#321> ;
-  contax:rangeOrObjectIncludes <http://w3id.org/con-tax/zones/et-buildings#323> ;
-  contax:rangeOrObjectIncludes <http://w3id.org/con-tax/zones/et-buildings#359> ;
-  contax:rangeOrObjectIncludes <http://w3id.org/con-tax/zones/et-buildings#466> ;
-  contax:rangeOrObjectIncludes <http://w3id.org/con-tax/zones/et-buildings#520> ;
-  contax:rangeOrObjectIncludes <http://w3id.org/con-tax/zones/et-buildings#63> ;
+  contax:rangeOrObjectIncludes <https://w3id.org/con-tax/zones/et-buildings#1226> ;
+  contax:rangeOrObjectIncludes <https://w3id.org/con-tax/zones/et-buildings#1271> ;
+  contax:rangeOrObjectIncludes <https://w3id.org/con-tax/zones/et-buildings#293> ;
+  contax:rangeOrObjectIncludes <https://w3id.org/con-tax/zones/et-buildings#319> ;
+  contax:rangeOrObjectIncludes <https://w3id.org/con-tax/zones/et-buildings#321> ;
+  contax:rangeOrObjectIncludes <https://w3id.org/con-tax/zones/et-buildings#323> ;
+  contax:rangeOrObjectIncludes <https://w3id.org/con-tax/zones/et-buildings#359> ;
+  contax:rangeOrObjectIncludes <https://w3id.org/con-tax/zones/et-buildings#466> ;
+  contax:rangeOrObjectIncludes <https://w3id.org/con-tax/zones/et-buildings#520> ;
+  contax:rangeOrObjectIncludes <https://w3id.org/con-tax/zones/et-buildings#63> ;
   contax:rangeOrObjectIncludes <https://w3id.org/con-tax/zones/aat-buildings#300004790> ;
 .
 bhp:buildingFunction_original
   rdf:type owl:ObjectProperty ;
-  dcterms:source <https://www.monumentenwacht.be/> ;
+  dct:source <https://www.monumentenwacht.be/> ;
   rdfs:comment "Property to assign an original function to a certain built heritage building. For the Flemish context, predefined property values can be used from ET-BUILDINGS taxonomy, based on the Onroerend Erfgoed thesaurus \"ERFGOEDTYPES\", and the AAT-BUILDINGS taxonomy based on the Getty AAT. Property definition inspired by the Monumentenwacht Vlaanderen databases (MAKSBO and IMACS)."@en ;
   rdfs:isDefinedBy <https://w3id.org/con-tax/properties/bhp> ;
   rdfs:label "original building function"@en ;
   rdfs:subPropertyOf bhp:buildingFunction ;
   contax:domainOrSubjectIncludes bot:Building ;
-  contax:rangeOrObjectIncludes <http://w3id.org/con-tax/zones/et-buildings#1226> ;
-  contax:rangeOrObjectIncludes <http://w3id.org/con-tax/zones/et-buildings#1271> ;
-  contax:rangeOrObjectIncludes <http://w3id.org/con-tax/zones/et-buildings#293> ;
-  contax:rangeOrObjectIncludes <http://w3id.org/con-tax/zones/et-buildings#319> ;
-  contax:rangeOrObjectIncludes <http://w3id.org/con-tax/zones/et-buildings#321> ;
-  contax:rangeOrObjectIncludes <http://w3id.org/con-tax/zones/et-buildings#323> ;
-  contax:rangeOrObjectIncludes <http://w3id.org/con-tax/zones/et-buildings#359> ;
-  contax:rangeOrObjectIncludes <http://w3id.org/con-tax/zones/et-buildings#466> ;
-  contax:rangeOrObjectIncludes <http://w3id.org/con-tax/zones/et-buildings#520> ;
-  contax:rangeOrObjectIncludes <http://w3id.org/con-tax/zones/et-buildings#63> ;
+  contax:rangeOrObjectIncludes <https://w3id.org/con-tax/zones/et-buildings#1226> ;
+  contax:rangeOrObjectIncludes <https://w3id.org/con-tax/zones/et-buildings#1271> ;
+  contax:rangeOrObjectIncludes <https://w3id.org/con-tax/zones/et-buildings#293> ;
+  contax:rangeOrObjectIncludes <https://w3id.org/con-tax/zones/et-buildings#319> ;
+  contax:rangeOrObjectIncludes <https://w3id.org/con-tax/zones/et-buildings#321> ;
+  contax:rangeOrObjectIncludes <https://w3id.org/con-tax/zones/et-buildings#323> ;
+  contax:rangeOrObjectIncludes <https://w3id.org/con-tax/zones/et-buildings#359> ;
+  contax:rangeOrObjectIncludes <https://w3id.org/con-tax/zones/et-buildings#466> ;
+  contax:rangeOrObjectIncludes <https://w3id.org/con-tax/zones/et-buildings#520> ;
+  contax:rangeOrObjectIncludes <https://w3id.org/con-tax/zones/et-buildings#63> ;
   contax:rangeOrObjectIncludes <https://w3id.org/con-tax/zones/aat-buildings#300004790> ;
 .
 bhp:buildingFunction_past
   rdf:type owl:ObjectProperty ;
-  dcterms:source <https://www.monumentenwacht.be/> ;
+  dct:source <https://www.monumentenwacht.be/> ;
   rdfs:comment "Property to assign a past function (different from the original function) to a certain built heritage building. For the Flemish context, predefined property values can be used from ET-BUILDINGS taxonomy, based on the Onroerend Erfgoed thesaurus \"ERFGOEDTYPES\", and the AAT-BUILDINGS taxonomy based on the Getty AAT. Property definition inspired by the Monumentenwacht Vlaanderen databases (MAKSBO and IMACS)."@en ;
   rdfs:isDefinedBy <https://w3id.org/con-tax/properties/bhp> ;
   rdfs:label "past building function"@en ;
   rdfs:subPropertyOf bhp:buildingFunction ;
   contax:domainOrSubjectIncludes bot:Building ;
-  contax:rangeOrObjectIncludes <http://w3id.org/con-tax/zones/et-buildings#1226> ;
-  contax:rangeOrObjectIncludes <http://w3id.org/con-tax/zones/et-buildings#1271> ;
-  contax:rangeOrObjectIncludes <http://w3id.org/con-tax/zones/et-buildings#293> ;
-  contax:rangeOrObjectIncludes <http://w3id.org/con-tax/zones/et-buildings#319> ;
-  contax:rangeOrObjectIncludes <http://w3id.org/con-tax/zones/et-buildings#321> ;
-  contax:rangeOrObjectIncludes <http://w3id.org/con-tax/zones/et-buildings#323> ;
-  contax:rangeOrObjectIncludes <http://w3id.org/con-tax/zones/et-buildings#359> ;
-  contax:rangeOrObjectIncludes <http://w3id.org/con-tax/zones/et-buildings#466> ;
-  contax:rangeOrObjectIncludes <http://w3id.org/con-tax/zones/et-buildings#520> ;
-  contax:rangeOrObjectIncludes <http://w3id.org/con-tax/zones/et-buildings#63> ;
+  contax:rangeOrObjectIncludes <https://w3id.org/con-tax/zones/et-buildings#1226> ;
+  contax:rangeOrObjectIncludes <https://w3id.org/con-tax/zones/et-buildings#1271> ;
+  contax:rangeOrObjectIncludes <https://w3id.org/con-tax/zones/et-buildings#293> ;
+  contax:rangeOrObjectIncludes <https://w3id.org/con-tax/zones/et-buildings#319> ;
+  contax:rangeOrObjectIncludes <https://w3id.org/con-tax/zones/et-buildings#321> ;
+  contax:rangeOrObjectIncludes <https://w3id.org/con-tax/zones/et-buildings#323> ;
+  contax:rangeOrObjectIncludes <https://w3id.org/con-tax/zones/et-buildings#359> ;
+  contax:rangeOrObjectIncludes <https://w3id.org/con-tax/zones/et-buildings#466> ;
+  contax:rangeOrObjectIncludes <https://w3id.org/con-tax/zones/et-buildings#520> ;
+  contax:rangeOrObjectIncludes <https://w3id.org/con-tax/zones/et-buildings#63> ;
   contax:rangeOrObjectIncludes <https://w3id.org/con-tax/zones/aat-buildings#300004790> ;
 .
 bhp:describedByHistoricalSource
@@ -271,7 +268,7 @@ bhp:hasErfgoedBeheersplan
 .
 bhp:heritageProtectionType
   rdf:type owl:ObjectProperty ;
-  dcterms:source <https://inventaris.onroerenderfgoed.be/> ;
+  dct:source <https://inventaris.onroerenderfgoed.be/> ;
   rdfs:comment "Property to assign a heritage protection type to a certain built heritage site or building. For the Flemish context, two predefined property values can be used from the Onroerend Erfgoed thesaurus \"AANDUIDINGSTYPES\". Property definition inspired by the Onroerend Erfgoed Vlaanderen built heritage inventory."@en ;
   rdfs:isDefinedBy <https://w3id.org/con-tax/properties/bhp> ;
   rdfs:label "heritage protection type"@en ;
@@ -283,7 +280,7 @@ bhp:heritageProtectionType
 .
 bhp:heritageValue
   rdf:type owl:ObjectProperty ;
-  dcterms:source <https://inventaris.onroerenderfgoed.be/> ;
+  dct:source <https://inventaris.onroerenderfgoed.be/> ;
   rdfs:comment "Property to assign a heritage value to a certain built heritage object (spatial building zone or individual construction component). For the Flemish context, predefined property values can be used from the Onroerend Erfgoed thesaurus \"WAARDETYPES\". Property definition inspired by the Onroerend Erfgoed Vlaanderen built heritage inventory."@en ;
   rdfs:isDefinedBy <https://w3id.org/con-tax/properties/bhp> ;
   rdfs:label "heritage value"@en ;
@@ -304,8 +301,11 @@ bhp:locationOfHistoricalEvent
 .
 bhp:mw-assessmentScore-BPC
   rdf:type owl:DatatypeProperty ;
-  dcterms:source <https://www.monumentenwacht.be/> ;
-  rdfs:comment """Property to indicate the building physical condition (BPC) of an assessment connected to an assessed object (cp:hasAssessment) according to the methodology of Monumentenwacht Vlaanderen. The value of the property should be a positive integer between 1 and 6. The scale should be interpretted as follows:
+  rdf:type owl:FunctionalProperty ;
+  dct:source <https://www.monumentenwacht.be/> ;
+  rdfs:comment """Property to indicate the building physical condition (BPC) of an assessment (cp:Assessment) connected to an assessed object (cp:hasAssessment) according to the methodology of Monumentenwacht Vlaanderen. According to the methodology of Monumentenwacht, this type of assessment should be performed for each of the following six parts of an inspected construction: (1) the construction a whole, (2) the roof(s), (3) the rain water disposal system, (4) the roof structure(s), (5) the general load bearing structure and (6) the framework and glazing of doors and windows. 
+
+The value of the property should be a positive integer between 1 and 6. The scale should be interpretted as follows:
 1 = excellent
 2 = good
 3 = fair
@@ -319,8 +319,11 @@ bhp:mw-assessmentScore-BPC
 .
 bhp:mw-assessmentScore-RCD
   rdf:type owl:DatatypeProperty ;
-  dcterms:source <https://www.monumentenwacht.be/> ;
-  rdfs:comment """Property to indicate the risk for consequential damage (in case the owner does not react properly to the detected damages) of an assessment connected to an assessed object (cp:hasAssessment) according to the methodology of Monumentenwacht Vlaanderen. The value of the property should be a positive integer between 1 and 6. The scale should be interpretted as follows:
+  rdf:type owl:FunctionalProperty ;
+  dct:source <https://www.monumentenwacht.be/> ;
+  rdfs:comment """Property to indicate the risk for consequential damage (in case the owner does not react properly to the detected damages) of an assessment (cp:Assessment) connected to an assessed object (cp:hasAssessment) connected to an assessed object (cp:hasAssessment) according to the methodology of Monumentenwacht Vlaanderen. According to the methodology of Monumentenwacht, this type of assessment should be performed for each of the following six parts of an inspected construction: (1) the construction a whole, (2) the roof(s), (3) the rain water disposal system, (4) the roof structure(s), (5) the general load bearing structure and (6) the framework and glazing of doors and windows. 
+
+The value of the property should be a positive integer between 1 and 6. The scale should be interpretted as follows:
 1 = no risk
 2 = low risk
 3 = fair risk
@@ -334,8 +337,11 @@ bhp:mw-assessmentScore-RCD
 .
 bhp:mw-assessmentScore-maintenance
   rdf:type owl:DatatypeProperty ;
-  dcterms:source <https://www.monumentenwacht.be/> ;
-  rdfs:comment """Property to indicate the attitude and quality of the current maintenance policies of an assessment connected to an assessed object (cp:hasAssessment) according to the methodology of Monumentenwacht Vlaanderen. The value of the property should be a positive integer between 1 and 6. The scale should be interpretted as follows:
+  rdf:type owl:FunctionalProperty ;
+  dct:source <https://www.monumentenwacht.be/> ;
+  rdfs:comment """Property to indicate the attitude and quality of the current maintenance policies of an assessment (cp:Assessment) connected to an assessed object (cp:hasAssessment) according to the methodology of Monumentenwacht Vlaanderen. According to the methodology of Monumentenwacht, this type of assessment should be performed for each of the following six parts of an inspected construction: (1) the construction a whole, (2) the roof(s), (3) the rain water disposal system, (4) the roof structure(s), (5) the general load bearing structure and (6) the framework and glazing of doors and windows. 
+
+The value of the property should be a positive integer between 1 and 6. The scale should be interpretted as follows:
 1 = excellent
 2 = good
 3 = fair
@@ -349,7 +355,7 @@ bhp:mw-assessmentScore-maintenance
 .
 bhp:originalArchitect
   rdf:type owl:ObjectProperty ;
-  dcterms:source <https://inventaris.onroerenderfgoed.be/> ;
+  dct:source <https://inventaris.onroerenderfgoed.be/> ;
   rdfs:comment "Property to relate an original architect to a site, building or individual construction component. Famous architects with assigned URIs from the Getty ULAN vocabulary can be used as values for this property. Property definition inspired by the Onroerend Erfgoed Vlaanderen built heritage inventory."@en ;
   rdfs:isDefinedBy <https://w3id.org/con-tax/properties/bhp> ;
   rdfs:label "original architect"@en ;
@@ -375,30 +381,30 @@ bhp:originsFromPeriod
   contax:rangeOrObjectIncludes <https://id.erfgoed.net/thesauri/dateringen/1237> ;
 .
 bhp:percentageRoofSafetyHooks
-  rdf:type owl:DatatypeProperty ;
-  dcterms:source <https://www.monumentenwacht.be/> ;
+  rdf:type owl:ObjectProperty ;
+  dct:source <https://www.monumentenwacht.be/> ;
   rdfs:comment "Quantitative property to indicate the percentage of the roof that is provided with safety hooks for ladders and/or fall protection. Property definition inspired by the Monumentenwacht Vlaanderen databases (MAKSBO and IMACS)."@en ;
   rdfs:isDefinedBy <https://w3id.org/con-tax/properties/bhp> ;
   rdfs:label "% of roof safety hooks"@en ;
-  rdfs:subPropertyOf contax:property_DP ;
-  contax:domainOrSubjectIncludes <http://pi.pauwel.be/voc/buildingelement#Slab-ROOF> ;
+  rdfs:subPropertyOf contax:property_OP ;
+  contax:domainOrSubjectIncludes beo:Slab-ROOF ;
   contax:domainOrSubjectIncludes <https://w3id.org/con-tax/components/aat-arch#300002098> ;
   contax:rangeOrObjectIncludes xsd:decimal ;
 .
 bhp:percentageRoofSafetyHooksEN517
-  rdf:type owl:DatatypeProperty ;
-  dcterms:source <https://www.monumentenwacht.be/> ;
+  rdf:type owl:ObjectProperty ;
+  dct:source <https://www.monumentenwacht.be/> ;
   rdfs:comment "Quantitative property to indicate the percentage of the roof that is provided with safety hooks for ladders and/or fall protection that comply with the European standard EN 517. Property definition inspired by the Monumentenwacht Vlaanderen databases (MAKSBO and IMACS)."@en ;
   rdfs:isDefinedBy <https://w3id.org/con-tax/properties/bhp> ;
   rdfs:label "% of roof safety hooks EN 517"@en ;
   rdfs:subPropertyOf bhp:percentageRoofSafetyHooks ;
-  contax:domainOrSubjectIncludes <http://pi.pauwel.be/voc/buildingelement#Slab-ROOF> ;
+  contax:domainOrSubjectIncludes beo:Slab-ROOF ;
   contax:domainOrSubjectIncludes <https://w3id.org/con-tax/components/aat-arch#300002098> ;
   contax:rangeOrObjectIncludes xsd:decimal ;
 .
 bhp:relatedArchitect
   rdf:type owl:ObjectProperty ;
-  dcterms:source <https://inventaris.onroerenderfgoed.be/> ;
+  dct:source <https://inventaris.onroerenderfgoed.be/> ;
   rdfs:comment "Property to relate an architect to a site, building or individual construction component. Famous architects with assigned URIs from the Getty ULAN vocabulary can be used as values for this property. Specializations of this property can be used to assign the original architect (bhp:originalArchitect) or (recent or historic) restoration architects (bhp:restorationArchitect). Property definition inspired by the Onroerend Erfgoed Vlaanderen built heritage inventory."@en ;
   rdfs:isDefinedBy <https://w3id.org/con-tax/properties/bhp> ;
   rdfs:label "related architect"@en ;
@@ -409,7 +415,7 @@ bhp:relatedArchitect
 .
 bhp:restorationArchitect
   rdf:type owl:ObjectProperty ;
-  dcterms:source <https://inventaris.onroerenderfgoed.be/> ;
+  dct:source <https://inventaris.onroerenderfgoed.be/> ;
   rdfs:comment "Property to relate a (recent or historic) restoration architect to a site, building or individual construction component. Famous architects with assigned URIs from the Getty ULAN vocabulary can be used as values for this property. Property definition inspired by the Onroerend Erfgoed Vlaanderen built heritage inventory."@en ;
   rdfs:isDefinedBy <https://w3id.org/con-tax/properties/bhp> ;
   rdfs:label "restoration architect"@en ;
@@ -420,7 +426,7 @@ bhp:restorationArchitect
 .
 cp:assessmentScore
   rdf:type owl:DatatypeProperty ;
-  rdfs:subPropertyOf contax:property_DP ;
+  rdf:type owl:FunctionalProperty ;
 .
 <https://w3id.org/con-tax/zones/aat-buildings#300004790>
   rdf:type rdfs:Resource ;

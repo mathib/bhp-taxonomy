@@ -60,30 +60,6 @@
   "@id" : "http://purl.org/vocommons/voaf#Vocabulary",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://w3id.org/con-tax/zones/et-buildings#319",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2000/01/rdf-schema#Resource" ]
-}, {
-  "@id" : "http://w3id.org/con-tax/zones/et-buildings#321",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2000/01/rdf-schema#Resource" ]
-}, {
-  "@id" : "http://w3id.org/con-tax/zones/et-buildings#323",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2000/01/rdf-schema#Resource" ]
-}, {
-  "@id" : "http://w3id.org/con-tax/zones/et-buildings#359",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2000/01/rdf-schema#Resource" ]
-}, {
-  "@id" : "http://w3id.org/con-tax/zones/et-buildings#466",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2000/01/rdf-schema#Resource" ]
-}, {
-  "@id" : "http://w3id.org/con-tax/zones/et-buildings#520",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2000/01/rdf-schema#Resource" ]
-}, {
-  "@id" : "http://w3id.org/con-tax/zones/et-buildings#63",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2000/01/rdf-schema#Resource" ]
-}, {
-  "@id" : "http://w3id.org/con-tax/zones/et-buildings293",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2000/01/rdf-schema#Resource" ]
-}, {
   "@id" : "http://www.w3.org/2000/01/rdf-schema#Resource",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
@@ -196,11 +172,11 @@
   } ],
   "http://purl.org/dc/terms/description" : [ {
     "@language" : "en",
-    "@value" : "This ontology contains a preliminary list of properties that might prove useful to describe heritage buildings. The properties are inspired by (1) the databases of Monumentenwacht Vlaanderen (MAKSBO and IMACS), (2) the online built heritage inventory of Onroerend Erfgoed Vlaanderen and (3) the results of interviews with a large variety of Flemish built heritage stakeholders."
+    "@value" : "This ontology contains a preliminary list of properties that might prove useful to describe heritage buildings. Besides two taxonomies of general built heritage properties, extending resp. contax:property_OP and contax:property_DP, it also contains terminology for the more specific patterns related to construction assessments (extending the more generic Construction Properties (CP) taxonomy). The properties are inspired by (1) the databases of Monumentenwacht Vlaanderen (MAKSBO and IMACS), (2) the online built heritage inventory of Onroerend Erfgoed Vlaanderen and (3) the results of interviews with a large variety of Flemish built heritage stakeholders."
   } ],
   "http://purl.org/dc/terms/issued" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#date",
-    "@value" : "2020-11-30"
+    "@value" : "2020-12-19"
   } ],
   "http://purl.org/dc/terms/title" : [ {
     "@language" : "en",
@@ -243,27 +219,27 @@
     "@id" : "https://w3id.org/bot#Building"
   } ],
   "https://w3id.org/con-tax#rangeOrObjectIncludes" : [ {
-    "@id" : "http://w3id.org/con-tax/zones/et-buildings#1226"
-  }, {
-    "@id" : "http://w3id.org/con-tax/zones/et-buildings#1271"
-  }, {
-    "@id" : "http://w3id.org/con-tax/zones/et-buildings#293"
-  }, {
-    "@id" : "http://w3id.org/con-tax/zones/et-buildings#319"
-  }, {
-    "@id" : "http://w3id.org/con-tax/zones/et-buildings#321"
-  }, {
-    "@id" : "http://w3id.org/con-tax/zones/et-buildings#323"
-  }, {
-    "@id" : "http://w3id.org/con-tax/zones/et-buildings#359"
-  }, {
-    "@id" : "http://w3id.org/con-tax/zones/et-buildings#466"
-  }, {
-    "@id" : "http://w3id.org/con-tax/zones/et-buildings#520"
-  }, {
-    "@id" : "http://w3id.org/con-tax/zones/et-buildings#63"
-  }, {
     "@id" : "https://w3id.org/con-tax/zones/aat-buildings#300004790"
+  }, {
+    "@id" : "https://w3id.org/con-tax/zones/et-buildings#1226"
+  }, {
+    "@id" : "https://w3id.org/con-tax/zones/et-buildings#1271"
+  }, {
+    "@id" : "https://w3id.org/con-tax/zones/et-buildings#293"
+  }, {
+    "@id" : "https://w3id.org/con-tax/zones/et-buildings#319"
+  }, {
+    "@id" : "https://w3id.org/con-tax/zones/et-buildings#321"
+  }, {
+    "@id" : "https://w3id.org/con-tax/zones/et-buildings#323"
+  }, {
+    "@id" : "https://w3id.org/con-tax/zones/et-buildings#359"
+  }, {
+    "@id" : "https://w3id.org/con-tax/zones/et-buildings#466"
+  }, {
+    "@id" : "https://w3id.org/con-tax/zones/et-buildings#520"
+  }, {
+    "@id" : "https://w3id.org/con-tax/zones/et-buildings#63"
   } ]
 }, {
   "@id" : "https://w3id.org/con-tax/properties/bhp#buildingFunction_current",
@@ -289,27 +265,27 @@
     "@id" : "https://w3id.org/bot#Building"
   } ],
   "https://w3id.org/con-tax#rangeOrObjectIncludes" : [ {
-    "@id" : "http://w3id.org/con-tax/zones/et-buildings#1226"
-  }, {
-    "@id" : "http://w3id.org/con-tax/zones/et-buildings#1271"
-  }, {
-    "@id" : "http://w3id.org/con-tax/zones/et-buildings#293"
-  }, {
-    "@id" : "http://w3id.org/con-tax/zones/et-buildings#319"
-  }, {
-    "@id" : "http://w3id.org/con-tax/zones/et-buildings#321"
-  }, {
-    "@id" : "http://w3id.org/con-tax/zones/et-buildings#323"
-  }, {
-    "@id" : "http://w3id.org/con-tax/zones/et-buildings#359"
-  }, {
-    "@id" : "http://w3id.org/con-tax/zones/et-buildings#466"
-  }, {
-    "@id" : "http://w3id.org/con-tax/zones/et-buildings#520"
-  }, {
-    "@id" : "http://w3id.org/con-tax/zones/et-buildings#63"
-  }, {
     "@id" : "https://w3id.org/con-tax/zones/aat-buildings#300004790"
+  }, {
+    "@id" : "https://w3id.org/con-tax/zones/et-buildings#1226"
+  }, {
+    "@id" : "https://w3id.org/con-tax/zones/et-buildings#1271"
+  }, {
+    "@id" : "https://w3id.org/con-tax/zones/et-buildings#293"
+  }, {
+    "@id" : "https://w3id.org/con-tax/zones/et-buildings#319"
+  }, {
+    "@id" : "https://w3id.org/con-tax/zones/et-buildings#321"
+  }, {
+    "@id" : "https://w3id.org/con-tax/zones/et-buildings#323"
+  }, {
+    "@id" : "https://w3id.org/con-tax/zones/et-buildings#359"
+  }, {
+    "@id" : "https://w3id.org/con-tax/zones/et-buildings#466"
+  }, {
+    "@id" : "https://w3id.org/con-tax/zones/et-buildings#520"
+  }, {
+    "@id" : "https://w3id.org/con-tax/zones/et-buildings#63"
   } ]
 }, {
   "@id" : "https://w3id.org/con-tax/properties/bhp#buildingFunction_original",
@@ -335,27 +311,27 @@
     "@id" : "https://w3id.org/bot#Building"
   } ],
   "https://w3id.org/con-tax#rangeOrObjectIncludes" : [ {
-    "@id" : "http://w3id.org/con-tax/zones/et-buildings#1226"
-  }, {
-    "@id" : "http://w3id.org/con-tax/zones/et-buildings#1271"
-  }, {
-    "@id" : "http://w3id.org/con-tax/zones/et-buildings#293"
-  }, {
-    "@id" : "http://w3id.org/con-tax/zones/et-buildings#319"
-  }, {
-    "@id" : "http://w3id.org/con-tax/zones/et-buildings#321"
-  }, {
-    "@id" : "http://w3id.org/con-tax/zones/et-buildings#323"
-  }, {
-    "@id" : "http://w3id.org/con-tax/zones/et-buildings#359"
-  }, {
-    "@id" : "http://w3id.org/con-tax/zones/et-buildings#466"
-  }, {
-    "@id" : "http://w3id.org/con-tax/zones/et-buildings#520"
-  }, {
-    "@id" : "http://w3id.org/con-tax/zones/et-buildings#63"
-  }, {
     "@id" : "https://w3id.org/con-tax/zones/aat-buildings#300004790"
+  }, {
+    "@id" : "https://w3id.org/con-tax/zones/et-buildings#1226"
+  }, {
+    "@id" : "https://w3id.org/con-tax/zones/et-buildings#1271"
+  }, {
+    "@id" : "https://w3id.org/con-tax/zones/et-buildings#293"
+  }, {
+    "@id" : "https://w3id.org/con-tax/zones/et-buildings#319"
+  }, {
+    "@id" : "https://w3id.org/con-tax/zones/et-buildings#321"
+  }, {
+    "@id" : "https://w3id.org/con-tax/zones/et-buildings#323"
+  }, {
+    "@id" : "https://w3id.org/con-tax/zones/et-buildings#359"
+  }, {
+    "@id" : "https://w3id.org/con-tax/zones/et-buildings#466"
+  }, {
+    "@id" : "https://w3id.org/con-tax/zones/et-buildings#520"
+  }, {
+    "@id" : "https://w3id.org/con-tax/zones/et-buildings#63"
   } ]
 }, {
   "@id" : "https://w3id.org/con-tax/properties/bhp#buildingFunction_past",
@@ -381,27 +357,27 @@
     "@id" : "https://w3id.org/bot#Building"
   } ],
   "https://w3id.org/con-tax#rangeOrObjectIncludes" : [ {
-    "@id" : "http://w3id.org/con-tax/zones/et-buildings#1226"
-  }, {
-    "@id" : "http://w3id.org/con-tax/zones/et-buildings#1271"
-  }, {
-    "@id" : "http://w3id.org/con-tax/zones/et-buildings#293"
-  }, {
-    "@id" : "http://w3id.org/con-tax/zones/et-buildings#319"
-  }, {
-    "@id" : "http://w3id.org/con-tax/zones/et-buildings#321"
-  }, {
-    "@id" : "http://w3id.org/con-tax/zones/et-buildings#323"
-  }, {
-    "@id" : "http://w3id.org/con-tax/zones/et-buildings#359"
-  }, {
-    "@id" : "http://w3id.org/con-tax/zones/et-buildings#466"
-  }, {
-    "@id" : "http://w3id.org/con-tax/zones/et-buildings#520"
-  }, {
-    "@id" : "http://w3id.org/con-tax/zones/et-buildings#63"
-  }, {
     "@id" : "https://w3id.org/con-tax/zones/aat-buildings#300004790"
+  }, {
+    "@id" : "https://w3id.org/con-tax/zones/et-buildings#1226"
+  }, {
+    "@id" : "https://w3id.org/con-tax/zones/et-buildings#1271"
+  }, {
+    "@id" : "https://w3id.org/con-tax/zones/et-buildings#293"
+  }, {
+    "@id" : "https://w3id.org/con-tax/zones/et-buildings#319"
+  }, {
+    "@id" : "https://w3id.org/con-tax/zones/et-buildings#321"
+  }, {
+    "@id" : "https://w3id.org/con-tax/zones/et-buildings#323"
+  }, {
+    "@id" : "https://w3id.org/con-tax/zones/et-buildings#359"
+  }, {
+    "@id" : "https://w3id.org/con-tax/zones/et-buildings#466"
+  }, {
+    "@id" : "https://w3id.org/con-tax/zones/et-buildings#520"
+  }, {
+    "@id" : "https://w3id.org/con-tax/zones/et-buildings#63"
   } ]
 }, {
   "@id" : "https://w3id.org/con-tax/properties/bhp#describedByHistoricalSource",
@@ -557,13 +533,13 @@
   } ]
 }, {
   "@id" : "https://w3id.org/con-tax/properties/bhp#mw-assessmentScore-BPC",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://purl.org/dc/terms/source" : [ {
     "@id" : "https://www.monumentenwacht.be/"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "Property to indicate the building physical condition (BPC) of an assessment connected to an assessed object (cp:hasAssessment) according to the methodology of Monumentenwacht Vlaanderen. The value of the property should be a positive integer between 1 and 6. The scale should be interpretted as follows:\n1 = excellent\n2 = good\n3 = fair\n4 = average\n5 = bad\n6 = very bad"
+    "@value" : "Property to indicate the building physical condition (BPC) of an assessment (cp:Assessment) connected to an assessed object (cp:hasAssessment) according to the methodology of Monumentenwacht Vlaanderen. According to the methodology of Monumentenwacht, this type of assessment should be performed for each of the following six parts of an inspected construction: (1) the construction a whole, (2) the roof(s), (3) the rain water disposal system, (4) the roof structure(s), (5) the general load bearing structure and (6) the framework and glazing of doors and windows. \r\n\r\nThe value of the property should be a positive integer between 1 and 6. The scale should be interpretted as follows:\n1 = excellent\n2 = good\n3 = fair\n4 = average\n5 = bad\n6 = very bad"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/con-tax/properties/bhp"
@@ -580,13 +556,13 @@
   } ]
 }, {
   "@id" : "https://w3id.org/con-tax/properties/bhp#mw-assessmentScore-RCD",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://purl.org/dc/terms/source" : [ {
     "@id" : "https://www.monumentenwacht.be/"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "Property to indicate the risk for consequential damage (in case the owner does not react properly to the detected damages) of an assessment connected to an assessed object (cp:hasAssessment) according to the methodology of Monumentenwacht Vlaanderen. The value of the property should be a positive integer between 1 and 6. The scale should be interpretted as follows:\n1 = no risk\n2 = low risk\n3 = fair risk\n4 = considerable risk\n5 = high risk\n6 = acute risk"
+    "@value" : "Property to indicate the risk for consequential damage (in case the owner does not react properly to the detected damages) of an assessment (cp:Assessment) connected to an assessed object (cp:hasAssessment) connected to an assessed object (cp:hasAssessment) according to the methodology of Monumentenwacht Vlaanderen. According to the methodology of Monumentenwacht, this type of assessment should be performed for each of the following six parts of an inspected construction: (1) the construction a whole, (2) the roof(s), (3) the rain water disposal system, (4) the roof structure(s), (5) the general load bearing structure and (6) the framework and glazing of doors and windows. \r\n\r\nThe value of the property should be a positive integer between 1 and 6. The scale should be interpretted as follows:\n1 = no risk\n2 = low risk\n3 = fair risk\n4 = considerable risk\n5 = high risk\n6 = acute risk"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/con-tax/properties/bhp"
@@ -603,13 +579,13 @@
   } ]
 }, {
   "@id" : "https://w3id.org/con-tax/properties/bhp#mw-assessmentScore-maintenance",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://purl.org/dc/terms/source" : [ {
     "@id" : "https://www.monumentenwacht.be/"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "Property to indicate the attitude and quality of the current maintenance policies of an assessment connected to an assessed object (cp:hasAssessment) according to the methodology of Monumentenwacht Vlaanderen. The value of the property should be a positive integer between 1 and 6. The scale should be interpretted as follows:\n1 = excellent\n2 = good\n3 = fair\n4 = average\n5 = bad\n6 = very bad"
+    "@value" : "Property to indicate the attitude and quality of the current maintenance policies of an assessment (cp:Assessment) connected to an assessed object (cp:hasAssessment) according to the methodology of Monumentenwacht Vlaanderen. According to the methodology of Monumentenwacht, this type of assessment should be performed for each of the following six parts of an inspected construction: (1) the construction a whole, (2) the roof(s), (3) the rain water disposal system, (4) the roof structure(s), (5) the general load bearing structure and (6) the framework and glazing of doors and windows. \r\n\r\nThe value of the property should be a positive integer between 1 and 6. The scale should be interpretted as follows:\n1 = excellent\n2 = good\n3 = fair\n4 = average\n5 = bad\n6 = very bad"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/con-tax/properties/bhp"
@@ -690,7 +666,7 @@
   } ]
 }, {
   "@id" : "https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooks",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://purl.org/dc/terms/source" : [ {
     "@id" : "https://www.monumentenwacht.be/"
   } ],
@@ -706,7 +682,7 @@
     "@value" : "% of roof safety hooks"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/con-tax#property_DP"
+    "@id" : "https://w3id.org/con-tax#property_OP"
   } ],
   "https://w3id.org/con-tax#domainOrSubjectIncludes" : [ {
     "@id" : "http://pi.pauwel.be/voc/buildingelement#Slab-ROOF"
@@ -718,7 +694,7 @@
   } ]
 }, {
   "@id" : "https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooksEN517",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://purl.org/dc/terms/source" : [ {
     "@id" : "https://www.monumentenwacht.be/"
   } ],
@@ -800,12 +776,33 @@
   } ]
 }, {
   "@id" : "https://w3id.org/con-tax/properties/cp#assessmentScore",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://w3id.org/con-tax#property_DP"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ]
 }, {
   "@id" : "https://w3id.org/con-tax/zones/aat-buildings#300004790",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2000/01/rdf-schema#Resource" ]
+}, {
+  "@id" : "https://w3id.org/con-tax/zones/et-buildings#293",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2000/01/rdf-schema#Resource" ]
+}, {
+  "@id" : "https://w3id.org/con-tax/zones/et-buildings#319",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2000/01/rdf-schema#Resource" ]
+}, {
+  "@id" : "https://w3id.org/con-tax/zones/et-buildings#321",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2000/01/rdf-schema#Resource" ]
+}, {
+  "@id" : "https://w3id.org/con-tax/zones/et-buildings#323",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2000/01/rdf-schema#Resource" ]
+}, {
+  "@id" : "https://w3id.org/con-tax/zones/et-buildings#359",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2000/01/rdf-schema#Resource" ]
+}, {
+  "@id" : "https://w3id.org/con-tax/zones/et-buildings#466",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2000/01/rdf-schema#Resource" ]
+}, {
+  "@id" : "https://w3id.org/con-tax/zones/et-buildings#520",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2000/01/rdf-schema#Resource" ]
+}, {
+  "@id" : "https://w3id.org/con-tax/zones/et-buildings#63",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2000/01/rdf-schema#Resource" ]
 }, {
   "@id" : "https://www.monumentenwacht.be/",

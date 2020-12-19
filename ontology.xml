@@ -14,8 +14,8 @@
     <owl:Ontology rdf:about="https://w3id.org/con-tax/properties/bhp">
         <ns1:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <terms:creator rdf:nodeID="genid1"/>
-        <terms:description xml:lang="en">This ontology contains a preliminary list of properties that might prove useful to describe heritage buildings. The properties are inspired by (1) the databases of Monumentenwacht Vlaanderen (MAKSBO and IMACS), (2) the online built heritage inventory of Onroerend Erfgoed Vlaanderen and (3) the results of interviews with a large variety of Flemish built heritage stakeholders.</terms:description>
-        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-11-30</terms:issued>
+        <terms:description xml:lang="en">This ontology contains a preliminary list of properties that might prove useful to describe heritage buildings. Besides two taxonomies of general built heritage properties, extending resp. contax:property_OP and contax:property_DP, it also contains terminology for the more specific patterns related to construction assessments (extending the more generic Construction Properties (CP) taxonomy). The properties are inspired by (1) the databases of Monumentenwacht Vlaanderen (MAKSBO and IMACS), (2) the online built heritage inventory of Onroerend Erfgoed Vlaanderen and (3) the results of interviews with a large variety of Flemish built heritage stakeholders.</terms:description>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-12-19</terms:issued>
         <terms:title xml:lang="en">Built Heritage Properties (BHP) taxonomy</terms:title>
         <vann:preferredNamespacePrefix>bhp</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri>https://w3id.org/con-tax/properties/bhp#</vann:preferredNamespaceUri>
@@ -193,17 +193,17 @@
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/con-tax/properties/bhp"/>
         <rdfs:label xml:lang="en">building function</rdfs:label>
         <con-tax:domainOrSubjectIncludes rdf:resource="https://w3id.org/bot#Building"/>
-        <con-tax:rangeOrObjectIncludes rdf:resource="http://w3id.org/con-tax/zones/et-buildings#1226"/>
-        <con-tax:rangeOrObjectIncludes rdf:resource="http://w3id.org/con-tax/zones/et-buildings#1271"/>
-        <con-tax:rangeOrObjectIncludes rdf:resource="http://w3id.org/con-tax/zones/et-buildings#293"/>
-        <con-tax:rangeOrObjectIncludes rdf:resource="http://w3id.org/con-tax/zones/et-buildings#319"/>
-        <con-tax:rangeOrObjectIncludes rdf:resource="http://w3id.org/con-tax/zones/et-buildings#321"/>
-        <con-tax:rangeOrObjectIncludes rdf:resource="http://w3id.org/con-tax/zones/et-buildings#323"/>
-        <con-tax:rangeOrObjectIncludes rdf:resource="http://w3id.org/con-tax/zones/et-buildings#359"/>
-        <con-tax:rangeOrObjectIncludes rdf:resource="http://w3id.org/con-tax/zones/et-buildings#466"/>
-        <con-tax:rangeOrObjectIncludes rdf:resource="http://w3id.org/con-tax/zones/et-buildings#520"/>
-        <con-tax:rangeOrObjectIncludes rdf:resource="http://w3id.org/con-tax/zones/et-buildings#63"/>
         <con-tax:rangeOrObjectIncludes rdf:resource="https://w3id.org/con-tax/zones/aat-buildings#300004790"/>
+        <con-tax:rangeOrObjectIncludes rdf:resource="https://w3id.org/con-tax/zones/et-buildings#1226"/>
+        <con-tax:rangeOrObjectIncludes rdf:resource="https://w3id.org/con-tax/zones/et-buildings#1271"/>
+        <con-tax:rangeOrObjectIncludes rdf:resource="https://w3id.org/con-tax/zones/et-buildings#293"/>
+        <con-tax:rangeOrObjectIncludes rdf:resource="https://w3id.org/con-tax/zones/et-buildings#319"/>
+        <con-tax:rangeOrObjectIncludes rdf:resource="https://w3id.org/con-tax/zones/et-buildings#321"/>
+        <con-tax:rangeOrObjectIncludes rdf:resource="https://w3id.org/con-tax/zones/et-buildings#323"/>
+        <con-tax:rangeOrObjectIncludes rdf:resource="https://w3id.org/con-tax/zones/et-buildings#359"/>
+        <con-tax:rangeOrObjectIncludes rdf:resource="https://w3id.org/con-tax/zones/et-buildings#466"/>
+        <con-tax:rangeOrObjectIncludes rdf:resource="https://w3id.org/con-tax/zones/et-buildings#520"/>
+        <con-tax:rangeOrObjectIncludes rdf:resource="https://w3id.org/con-tax/zones/et-buildings#63"/>
     </owl:ObjectProperty>
     
 
@@ -218,17 +218,17 @@
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/con-tax/properties/bhp"/>
         <rdfs:label xml:lang="en">current building function</rdfs:label>
         <con-tax:domainOrSubjectIncludes rdf:resource="https://w3id.org/bot#Building"/>
-        <con-tax:rangeOrObjectIncludes rdf:resource="http://w3id.org/con-tax/zones/et-buildings#1226"/>
-        <con-tax:rangeOrObjectIncludes rdf:resource="http://w3id.org/con-tax/zones/et-buildings#1271"/>
-        <con-tax:rangeOrObjectIncludes rdf:resource="http://w3id.org/con-tax/zones/et-buildings#293"/>
-        <con-tax:rangeOrObjectIncludes rdf:resource="http://w3id.org/con-tax/zones/et-buildings#319"/>
-        <con-tax:rangeOrObjectIncludes rdf:resource="http://w3id.org/con-tax/zones/et-buildings#321"/>
-        <con-tax:rangeOrObjectIncludes rdf:resource="http://w3id.org/con-tax/zones/et-buildings#323"/>
-        <con-tax:rangeOrObjectIncludes rdf:resource="http://w3id.org/con-tax/zones/et-buildings#359"/>
-        <con-tax:rangeOrObjectIncludes rdf:resource="http://w3id.org/con-tax/zones/et-buildings#466"/>
-        <con-tax:rangeOrObjectIncludes rdf:resource="http://w3id.org/con-tax/zones/et-buildings#520"/>
-        <con-tax:rangeOrObjectIncludes rdf:resource="http://w3id.org/con-tax/zones/et-buildings#63"/>
         <con-tax:rangeOrObjectIncludes rdf:resource="https://w3id.org/con-tax/zones/aat-buildings#300004790"/>
+        <con-tax:rangeOrObjectIncludes rdf:resource="https://w3id.org/con-tax/zones/et-buildings#1226"/>
+        <con-tax:rangeOrObjectIncludes rdf:resource="https://w3id.org/con-tax/zones/et-buildings#1271"/>
+        <con-tax:rangeOrObjectIncludes rdf:resource="https://w3id.org/con-tax/zones/et-buildings#293"/>
+        <con-tax:rangeOrObjectIncludes rdf:resource="https://w3id.org/con-tax/zones/et-buildings#319"/>
+        <con-tax:rangeOrObjectIncludes rdf:resource="https://w3id.org/con-tax/zones/et-buildings#321"/>
+        <con-tax:rangeOrObjectIncludes rdf:resource="https://w3id.org/con-tax/zones/et-buildings#323"/>
+        <con-tax:rangeOrObjectIncludes rdf:resource="https://w3id.org/con-tax/zones/et-buildings#359"/>
+        <con-tax:rangeOrObjectIncludes rdf:resource="https://w3id.org/con-tax/zones/et-buildings#466"/>
+        <con-tax:rangeOrObjectIncludes rdf:resource="https://w3id.org/con-tax/zones/et-buildings#520"/>
+        <con-tax:rangeOrObjectIncludes rdf:resource="https://w3id.org/con-tax/zones/et-buildings#63"/>
     </owl:ObjectProperty>
     
 
@@ -243,17 +243,17 @@
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/con-tax/properties/bhp"/>
         <rdfs:label xml:lang="en">original building function</rdfs:label>
         <con-tax:domainOrSubjectIncludes rdf:resource="https://w3id.org/bot#Building"/>
-        <con-tax:rangeOrObjectIncludes rdf:resource="http://w3id.org/con-tax/zones/et-buildings#1226"/>
-        <con-tax:rangeOrObjectIncludes rdf:resource="http://w3id.org/con-tax/zones/et-buildings#1271"/>
-        <con-tax:rangeOrObjectIncludes rdf:resource="http://w3id.org/con-tax/zones/et-buildings#293"/>
-        <con-tax:rangeOrObjectIncludes rdf:resource="http://w3id.org/con-tax/zones/et-buildings#319"/>
-        <con-tax:rangeOrObjectIncludes rdf:resource="http://w3id.org/con-tax/zones/et-buildings#321"/>
-        <con-tax:rangeOrObjectIncludes rdf:resource="http://w3id.org/con-tax/zones/et-buildings#323"/>
-        <con-tax:rangeOrObjectIncludes rdf:resource="http://w3id.org/con-tax/zones/et-buildings#359"/>
-        <con-tax:rangeOrObjectIncludes rdf:resource="http://w3id.org/con-tax/zones/et-buildings#466"/>
-        <con-tax:rangeOrObjectIncludes rdf:resource="http://w3id.org/con-tax/zones/et-buildings#520"/>
-        <con-tax:rangeOrObjectIncludes rdf:resource="http://w3id.org/con-tax/zones/et-buildings#63"/>
         <con-tax:rangeOrObjectIncludes rdf:resource="https://w3id.org/con-tax/zones/aat-buildings#300004790"/>
+        <con-tax:rangeOrObjectIncludes rdf:resource="https://w3id.org/con-tax/zones/et-buildings#1226"/>
+        <con-tax:rangeOrObjectIncludes rdf:resource="https://w3id.org/con-tax/zones/et-buildings#1271"/>
+        <con-tax:rangeOrObjectIncludes rdf:resource="https://w3id.org/con-tax/zones/et-buildings#293"/>
+        <con-tax:rangeOrObjectIncludes rdf:resource="https://w3id.org/con-tax/zones/et-buildings#319"/>
+        <con-tax:rangeOrObjectIncludes rdf:resource="https://w3id.org/con-tax/zones/et-buildings#321"/>
+        <con-tax:rangeOrObjectIncludes rdf:resource="https://w3id.org/con-tax/zones/et-buildings#323"/>
+        <con-tax:rangeOrObjectIncludes rdf:resource="https://w3id.org/con-tax/zones/et-buildings#359"/>
+        <con-tax:rangeOrObjectIncludes rdf:resource="https://w3id.org/con-tax/zones/et-buildings#466"/>
+        <con-tax:rangeOrObjectIncludes rdf:resource="https://w3id.org/con-tax/zones/et-buildings#520"/>
+        <con-tax:rangeOrObjectIncludes rdf:resource="https://w3id.org/con-tax/zones/et-buildings#63"/>
     </owl:ObjectProperty>
     
 
@@ -268,17 +268,17 @@
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/con-tax/properties/bhp"/>
         <rdfs:label xml:lang="en">past building function</rdfs:label>
         <con-tax:domainOrSubjectIncludes rdf:resource="https://w3id.org/bot#Building"/>
-        <con-tax:rangeOrObjectIncludes rdf:resource="http://w3id.org/con-tax/zones/et-buildings#1226"/>
-        <con-tax:rangeOrObjectIncludes rdf:resource="http://w3id.org/con-tax/zones/et-buildings#1271"/>
-        <con-tax:rangeOrObjectIncludes rdf:resource="http://w3id.org/con-tax/zones/et-buildings#293"/>
-        <con-tax:rangeOrObjectIncludes rdf:resource="http://w3id.org/con-tax/zones/et-buildings#319"/>
-        <con-tax:rangeOrObjectIncludes rdf:resource="http://w3id.org/con-tax/zones/et-buildings#321"/>
-        <con-tax:rangeOrObjectIncludes rdf:resource="http://w3id.org/con-tax/zones/et-buildings#323"/>
-        <con-tax:rangeOrObjectIncludes rdf:resource="http://w3id.org/con-tax/zones/et-buildings#359"/>
-        <con-tax:rangeOrObjectIncludes rdf:resource="http://w3id.org/con-tax/zones/et-buildings#466"/>
-        <con-tax:rangeOrObjectIncludes rdf:resource="http://w3id.org/con-tax/zones/et-buildings#520"/>
-        <con-tax:rangeOrObjectIncludes rdf:resource="http://w3id.org/con-tax/zones/et-buildings#63"/>
         <con-tax:rangeOrObjectIncludes rdf:resource="https://w3id.org/con-tax/zones/aat-buildings#300004790"/>
+        <con-tax:rangeOrObjectIncludes rdf:resource="https://w3id.org/con-tax/zones/et-buildings#1226"/>
+        <con-tax:rangeOrObjectIncludes rdf:resource="https://w3id.org/con-tax/zones/et-buildings#1271"/>
+        <con-tax:rangeOrObjectIncludes rdf:resource="https://w3id.org/con-tax/zones/et-buildings#293"/>
+        <con-tax:rangeOrObjectIncludes rdf:resource="https://w3id.org/con-tax/zones/et-buildings#319"/>
+        <con-tax:rangeOrObjectIncludes rdf:resource="https://w3id.org/con-tax/zones/et-buildings#321"/>
+        <con-tax:rangeOrObjectIncludes rdf:resource="https://w3id.org/con-tax/zones/et-buildings#323"/>
+        <con-tax:rangeOrObjectIncludes rdf:resource="https://w3id.org/con-tax/zones/et-buildings#359"/>
+        <con-tax:rangeOrObjectIncludes rdf:resource="https://w3id.org/con-tax/zones/et-buildings#466"/>
+        <con-tax:rangeOrObjectIncludes rdf:resource="https://w3id.org/con-tax/zones/et-buildings#520"/>
+        <con-tax:rangeOrObjectIncludes rdf:resource="https://w3id.org/con-tax/zones/et-buildings#63"/>
     </owl:ObjectProperty>
     
 
@@ -412,6 +412,38 @@
     
 
 
+    <!-- https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooks -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooks">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/con-tax#property_OP"/>
+        <terms:source rdf:resource="https://www.monumentenwacht.be/"/>
+        <rdfs:comment xml:lang="en">Quantitative property to indicate the percentage of the roof that is provided with safety hooks for ladders and/or fall protection. Property definition inspired by the Monumentenwacht Vlaanderen databases (MAKSBO and IMACS).</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/con-tax/properties/bhp"/>
+        <rdfs:label xml:lang="en">% of roof safety hooks</rdfs:label>
+        <con-tax:domainOrSubjectIncludes rdf:resource="http://pi.pauwel.be/voc/buildingelement#Slab-ROOF"/>
+        <con-tax:domainOrSubjectIncludes rdf:resource="https://w3id.org/con-tax/components/aat-arch#300002098"/>
+        <con-tax:rangeOrObjectIncludes rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooksEN517 -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooksEN517">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooks"/>
+        <terms:source rdf:resource="https://www.monumentenwacht.be/"/>
+        <rdfs:comment xml:lang="en">Quantitative property to indicate the percentage of the roof that is provided with safety hooks for ladders and/or fall protection that comply with the European standard EN 517. Property definition inspired by the Monumentenwacht Vlaanderen databases (MAKSBO and IMACS).</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/con-tax/properties/bhp"/>
+        <rdfs:label xml:lang="en">% of roof safety hooks EN 517</rdfs:label>
+        <con-tax:domainOrSubjectIncludes rdf:resource="http://pi.pauwel.be/voc/buildingelement#Slab-ROOF"/>
+        <con-tax:domainOrSubjectIncludes rdf:resource="https://w3id.org/con-tax/components/aat-arch#300002098"/>
+        <con-tax:rangeOrObjectIncludes rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://w3id.org/con-tax/properties/bhp#relatedArchitect -->
 
 
@@ -468,9 +500,12 @@
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/con-tax/properties/bhp#mw-assessmentScore-BPC">
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/con-tax/properties/cp#assessmentScore"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
         <terms:source rdf:resource="https://www.monumentenwacht.be/"/>
-        <rdfs:comment xml:lang="en">Property to indicate the building physical condition (BPC) of an assessment connected to an assessed object (cp:hasAssessment) according to the methodology of Monumentenwacht Vlaanderen. The value of the property should be a positive integer between 1 and 6. The scale should be interpretted as follows:
+        <rdfs:comment xml:lang="en">Property to indicate the building physical condition (BPC) of an assessment (cp:Assessment) connected to an assessed object (cp:hasAssessment) according to the methodology of Monumentenwacht Vlaanderen. According to the methodology of Monumentenwacht, this type of assessment should be performed for each of the following six parts of an inspected construction: (1) the construction a whole, (2) the roof(s), (3) the rain water disposal system, (4) the roof structure(s), (5) the general load bearing structure and (6) the framework and glazing of doors and windows. 
+
+The value of the property should be a positive integer between 1 and 6. The scale should be interpretted as follows:
 1 = excellent
 2 = good
 3 = fair
@@ -488,9 +523,12 @@
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/con-tax/properties/bhp#mw-assessmentScore-RCD">
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/con-tax/properties/cp#assessmentScore"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
         <terms:source rdf:resource="https://www.monumentenwacht.be/"/>
-        <rdfs:comment xml:lang="en">Property to indicate the risk for consequential damage (in case the owner does not react properly to the detected damages) of an assessment connected to an assessed object (cp:hasAssessment) according to the methodology of Monumentenwacht Vlaanderen. The value of the property should be a positive integer between 1 and 6. The scale should be interpretted as follows:
+        <rdfs:comment xml:lang="en">Property to indicate the risk for consequential damage (in case the owner does not react properly to the detected damages) of an assessment (cp:Assessment) connected to an assessed object (cp:hasAssessment) connected to an assessed object (cp:hasAssessment) according to the methodology of Monumentenwacht Vlaanderen. According to the methodology of Monumentenwacht, this type of assessment should be performed for each of the following six parts of an inspected construction: (1) the construction a whole, (2) the roof(s), (3) the rain water disposal system, (4) the roof structure(s), (5) the general load bearing structure and (6) the framework and glazing of doors and windows. 
+
+The value of the property should be a positive integer between 1 and 6. The scale should be interpretted as follows:
 1 = no risk
 2 = low risk
 3 = fair risk
@@ -508,9 +546,12 @@
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/con-tax/properties/bhp#mw-assessmentScore-maintenance">
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/con-tax/properties/cp#assessmentScore"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
         <terms:source rdf:resource="https://www.monumentenwacht.be/"/>
-        <rdfs:comment xml:lang="en">Property to indicate the attitude and quality of the current maintenance policies of an assessment connected to an assessed object (cp:hasAssessment) according to the methodology of Monumentenwacht Vlaanderen. The value of the property should be a positive integer between 1 and 6. The scale should be interpretted as follows:
+        <rdfs:comment xml:lang="en">Property to indicate the attitude and quality of the current maintenance policies of an assessment (cp:Assessment) connected to an assessed object (cp:hasAssessment) according to the methodology of Monumentenwacht Vlaanderen. According to the methodology of Monumentenwacht, this type of assessment should be performed for each of the following six parts of an inspected construction: (1) the construction a whole, (2) the roof(s), (3) the rain water disposal system, (4) the roof structure(s), (5) the general load bearing structure and (6) the framework and glazing of doors and windows. 
+
+The value of the property should be a positive integer between 1 and 6. The scale should be interpretted as follows:
 1 = excellent
 2 = good
 3 = fair
@@ -523,43 +564,11 @@
     
 
 
-    <!-- https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooks -->
-
-
-    <owl:DatatypeProperty rdf:about="https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooks">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/con-tax#property_DP"/>
-        <terms:source rdf:resource="https://www.monumentenwacht.be/"/>
-        <rdfs:comment xml:lang="en">Quantitative property to indicate the percentage of the roof that is provided with safety hooks for ladders and/or fall protection. Property definition inspired by the Monumentenwacht Vlaanderen databases (MAKSBO and IMACS).</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/con-tax/properties/bhp"/>
-        <rdfs:label xml:lang="en">% of roof safety hooks</rdfs:label>
-        <con-tax:domainOrSubjectIncludes rdf:resource="http://pi.pauwel.be/voc/buildingelement#Slab-ROOF"/>
-        <con-tax:domainOrSubjectIncludes rdf:resource="https://w3id.org/con-tax/components/aat-arch#300002098"/>
-        <con-tax:rangeOrObjectIncludes rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooksEN517 -->
-
-
-    <owl:DatatypeProperty rdf:about="https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooksEN517">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/con-tax/properties/bhp#percentageRoofSafetyHooks"/>
-        <terms:source rdf:resource="https://www.monumentenwacht.be/"/>
-        <rdfs:comment xml:lang="en">Quantitative property to indicate the percentage of the roof that is provided with safety hooks for ladders and/or fall protection that comply with the European standard EN 517. Property definition inspired by the Monumentenwacht Vlaanderen databases (MAKSBO and IMACS).</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/con-tax/properties/bhp"/>
-        <rdfs:label xml:lang="en">% of roof safety hooks EN 517</rdfs:label>
-        <con-tax:domainOrSubjectIncludes rdf:resource="http://pi.pauwel.be/voc/buildingelement#Slab-ROOF"/>
-        <con-tax:domainOrSubjectIncludes rdf:resource="https://w3id.org/con-tax/components/aat-arch#300002098"/>
-        <con-tax:rangeOrObjectIncludes rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- https://w3id.org/con-tax/properties/cp#assessmentScore -->
 
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/con-tax/properties/cp#assessmentScore">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/con-tax#property_DP"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
     </owl:DatatypeProperty>
     
 
@@ -690,78 +699,6 @@
 
 
     <owl:NamedIndividual rdf:about="http://pi.pauwel.be/voc/buildingelement#Slab-ROOF">
-        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://w3id.org/con-tax/zones/et-buildings293 -->
-
-
-    <owl:NamedIndividual rdf:about="http://w3id.org/con-tax/zones/et-buildings293">
-        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://w3id.org/con-tax/zones/et-buildings#319 -->
-
-
-    <owl:NamedIndividual rdf:about="http://w3id.org/con-tax/zones/et-buildings#319">
-        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://w3id.org/con-tax/zones/et-buildings#321 -->
-
-
-    <owl:NamedIndividual rdf:about="http://w3id.org/con-tax/zones/et-buildings#321">
-        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://w3id.org/con-tax/zones/et-buildings#323 -->
-
-
-    <owl:NamedIndividual rdf:about="http://w3id.org/con-tax/zones/et-buildings#323">
-        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://w3id.org/con-tax/zones/et-buildings#359 -->
-
-
-    <owl:NamedIndividual rdf:about="http://w3id.org/con-tax/zones/et-buildings#359">
-        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://w3id.org/con-tax/zones/et-buildings#466 -->
-
-
-    <owl:NamedIndividual rdf:about="http://w3id.org/con-tax/zones/et-buildings#466">
-        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://w3id.org/con-tax/zones/et-buildings#520 -->
-
-
-    <owl:NamedIndividual rdf:about="http://w3id.org/con-tax/zones/et-buildings#520">
-        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://w3id.org/con-tax/zones/et-buildings#63 -->
-
-
-    <owl:NamedIndividual rdf:about="http://w3id.org/con-tax/zones/et-buildings#63">
         <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
     </owl:NamedIndividual>
     
@@ -906,6 +843,78 @@
 
 
     <owl:NamedIndividual rdf:about="https://w3id.org/con-tax/zones/aat-buildings#300004790">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/con-tax/zones/et-buildings#293 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/con-tax/zones/et-buildings#293">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/con-tax/zones/et-buildings#319 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/con-tax/zones/et-buildings#319">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/con-tax/zones/et-buildings#321 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/con-tax/zones/et-buildings#321">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/con-tax/zones/et-buildings#323 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/con-tax/zones/et-buildings#323">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/con-tax/zones/et-buildings#359 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/con-tax/zones/et-buildings#359">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/con-tax/zones/et-buildings#466 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/con-tax/zones/et-buildings#466">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/con-tax/zones/et-buildings#520 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/con-tax/zones/et-buildings#520">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/con-tax/zones/et-buildings#63 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/con-tax/zones/et-buildings#63">
         <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
     </owl:NamedIndividual>
     
